@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2135406-5715-40f1-af77-1722f35d091e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Jumpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Jumpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jumpa/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,6 +55,17 @@
     <selection>jr</selection>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JumpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Jumpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jumpa.Jumpa.JumpaApplication" />
@@ -70,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681231259217</updated>
       <workItem from="1681231262927" duration="1716000" />
+      <workItem from="1681233471001" duration="1990000" />
     </task>
     <servers />
   </component>
