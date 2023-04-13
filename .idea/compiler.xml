@@ -9,6 +9,9 @@
         <module name="Jumpa" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jumpa" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
