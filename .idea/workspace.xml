@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2135406-5715-40f1-af77-1722f35d091e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jumpa/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2135406-5715-40f1-af77-1722f35d091e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681231259217</updated>
       <workItem from="1681231262927" duration="1716000" />
-      <workItem from="1681233471001" duration="1990000" />
+      <workItem from="1681233471001" duration="2226000" />
     </task>
     <servers />
   </component>
