@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Typography, Box, Button } from '@mui/material';
 import { styled } from '@mui/system';
 import { Favorite } from '@mui/icons-material';
+import song from './assets/audio/song.mp3';
 
 const StyledContainer = styled(Container)({
   display: 'flex',
@@ -21,6 +22,14 @@ const StyledButton = styled(Button)({
 });
 
 function App() {
+  const audioRef = React.useRef(null);
+
+  const playSong = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+    }
+  };
+
   return (
     <StyledContainer>
       <Box>
@@ -28,17 +37,18 @@ function App() {
           ¡Bienvenido a Jumpa!
         </Title>
         <Typography variant="h6">
-          El Dani chupa una cantidad de guevo descomunal,
-          Es un poco chinardo y tiene mas tetas que su novia
+          Esta es una aplicación personalizada construida con React y Material-UI.
         </Typography>
         <StyledButton
           variant="contained"
           color="secondary"
           startIcon={<Favorite />}
+          onClick={playSong}
         >
           Haz clic aquí
         </StyledButton>
       </Box>
+      <audio ref={audioRef} src={song} />
     </StyledContainer>
   );
 }

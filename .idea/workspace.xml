@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681403128155</updated>
       <workItem from="1681403129903" duration="3477000" />
-      <workItem from="1681744718067" duration="1829000" />
+      <workItem from="1681744718067" duration="3246000" />
     </task>
     <servers />
   </component>
