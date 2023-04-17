@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +61,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.JumpaApplication">
     <configuration name="JumpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Jumpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jumpa.Jumpa.JumpaApplication" />
@@ -60,6 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JumpaApplication" type="springBootConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="spring_profiles_active" value="default" />
+        <env name="spring_output_ansi_enabled" value="always" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.jumpa.Jumpa.JumpaApplication" />
+      <module name="Jumpa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.JumpaApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

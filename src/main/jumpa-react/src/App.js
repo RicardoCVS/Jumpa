@@ -1,46 +1,28 @@
-import React from 'react';
-import { Container, Typography, Box, Button } from '@mui/material';
-import { styled } from '@mui/system';
-import { Favorite } from '@mui/icons-material';
+import './App.css';
+import { useState } from 'react';
 
-const StyledContainer = styled(Container)({
-  display: 'flex',
-  flexDirection: 'column',
-  alignItems: 'center',
-  justifyContent: 'center',
-  minHeight: '100vh',
-  backgroundColor: '#f5f5f5',
-});
+function Card({ titleFront, textFront, imagenfront, titleBack, textBack, imagenBack}) {
+  const [flipped, setFlipped] = useState(false);
 
-const Title = styled(Typography)({
-  marginBottom: '1rem',
-});
+  const handleClick = () => {
+    setFlipped(!flipped);
+  };
 
-const StyledButton = styled(Button)({
-  marginTop: '1rem',
-});
-
-function App() {
   return (
-    <StyledContainer>
-      <Box>
-        <Title variant="h2" color="primary">
-          ¡Bienvenido a Jumpa!
-        </Title>
-        <Typography variant="h6">
-          El Dani chupa una cantidad de guevo descomunal,
-          Es un poco chinardo y tiene mas tetas que su novia
-        </Typography>
-        <StyledButton
-          variant="contained"
-          color="secondary"
-          startIcon={<Favorite />}
-        >
-          Haz clic aquí
-        </StyledButton>
-      </Box>
-    </StyledContainer>
+    <div className={`flip-card ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <p>{titleFront}</p>
+          <p>{textFront}</p>
+        </div>
+        <div className="flip-card-back">
+          <img className="imgBack" src={imagenBack}/>
+          <h1 className='tituloBack'>{titleBack}</h1>
+          <p className="texto">{textBack}</p>
+        </div>
+      </div>
+    </div>
   );
 }
 
-export default App;
+export default Card;
