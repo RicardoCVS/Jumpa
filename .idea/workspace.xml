@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +50,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.JumpaApplication">
     <configuration name="JumpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Jumpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jumpa.Jumpa.JumpaApplication" />
@@ -60,6 +58,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JumpaApplication" type="springBootConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="spring_profiles_active" value="default" />
+        <env name="spring_output_ansi_enabled" value="always" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.jumpa.Jumpa.JumpaApplication" />
+      <module name="Jumpa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.JumpaApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
