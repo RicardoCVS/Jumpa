@@ -28,8 +28,8 @@ function App() {
           ¡Bienvenido a Jumpa!
         </Title>
         <Typography variant="h6">
-          El Dani chupa una cantidad de guevo descomunal,
-          Es un poco chinardo y tiene mas tetas que su novia
+          
+          Es un poco chinardoo0o0o0o0 y tiene mas tetas que su novia
         </Typography>
         <StyledButton
           variant="contained"
