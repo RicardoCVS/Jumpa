@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2135406-5715-40f1-af77-1722f35d091e" name="Changes" comment="" />
+    <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,11 +21,17 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2OHxLZ6BwUtO5lHqn9CK3N8vRxm" />
+  <component name="ProjectId" id="2ONZhizu6vUbAwyMnf0VYTeh5UT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,27 +50,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "04d7c29b30a06a99585545bcceb38130",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JumpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Jumpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jumpa.Jumpa.JumpaApplication" />
@@ -74,13 +69,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2135406-5715-40f1-af77-1722f35d091e" name="Changes" comment="" />
-      <created>1681231259217</created>
+      <changelist id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="" />
+      <created>1681403128155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681231259217</updated>
-      <workItem from="1681231262927" duration="1716000" />
-      <workItem from="1681233471001" duration="2226000" />
+      <updated>1681403128155</updated>
+      <workItem from="1681403129903" duration="3477000" />
+      <workItem from="1681744718067" duration="3246000" />
     </task>
     <servers />
   </component>
