@@ -1,36 +1,29 @@
-import React, { useState, useRef } from 'react';
-import PropTypes from 'prop-types';
-import './MainButton.css';
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import "./MainButton.css";
 
-function MainButton({ songSrc }) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+function MainButton() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const playSong = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        setIsPlaying(false);
-        audioRef.current.pause();
-        audioRef.current.currentTime = 0;
-      } else {
-        setIsPlaying(true);
-        audioRef.current.play();
-      }
-    }
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
-    <>
-      <button className="main-button" onClick={playSong}>
-        {isPlaying ? 'Pausar' : 'Jugar'}
+    <div>
+      <button className="main-button" onClick={openModal}>
+        Jugar
       </button>
-      <audio ref={audioRef} src={songSrc} />
-    </>
+      <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
+        <h2>Juego integrado aquí</h2>
+        <button onClick={closeModal}>Cerrar</button>
+      </Modal>
+    </div>
   );
 }
-
-MainButton.propTypes = {
-  songSrc: PropTypes.string.isRequired,
-};
 
 export default MainButton;
