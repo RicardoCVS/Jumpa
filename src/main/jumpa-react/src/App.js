@@ -1,28 +1,26 @@
-import './App.css';
-import { useState } from 'react';
+import './Tarjeta.css';
+import Card from './Tarjeta.js';
 
-function Card({ titleFront, textFront, imagenfront, titleBack, textBack, imagenBack}) {
-  const [flipped, setFlipped] = useState(false);
-
-  const handleClick = () => {
-    setFlipped(!flipped);
-  };
-
+function App() {
+    const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
+    const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
   return (
-    <div className={`flip-card ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
-      <div className="flip-card-inner">
-        <div className="flip-card-front">
-          <p>{titleFront}</p>
-          <p>{textFront}</p>
-        </div>
-        <div className="flip-card-back">
-          <img className="imgBack" src={imagenBack}/>
-          <h1 className='tituloBack'>{titleBack}</h1>
-          <p className="texto">{textBack}</p>
-        </div>
-      </div>
-    </div>
+    <>
+    <Card 
+      titleFront="Viva el betis"imagenBack={rutaImagen}
+      titleBack="asd" textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa" imagenfront={rutaImagen2}
+    />
+    <Card 
+      titleFront="Viva el betis" imagenBack={rutaImagen}
+      titleBack="asd" textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa Pipsa Pipsa Pipsa PipsaPipsaPipsaPipsaPipsaPipsa" 
+    />
+    <Card />
+    <Card />
+    <Card />
+    <Card />
+    
+  </>
   );
 }
 
-export default Card;
+export default App;
