@@ -1,38 +1,143 @@
-.App {
+*{
+  font-family:"Press Start 2P";
+}
+#titulo{
+  margin-bottom: 11px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* grid-gap: 1px; */
+}
+.grid-item {
+  /* background-color: #ccc; */
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#messagelist1 {
+  grid-column: 2 /span 3 ;
+  grid-row: 1;
+  justify-self: left;
+  border-image-slice: 3;
+  border-image-width: 3;
+  border-image-repeat: stretch;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+  border-image-outset: 2;
+  position: relative;
+  bottom: 14px;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 8px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.imagen1{
+  position: relative;
+  top:10px;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: right;
+  width: 50%;
+  height: auto;
+  /* transform: scaleX(-1); */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+#messagelist2 {
+  grid-column: 1 /span 3 ;
+  grid-row: 2;
+  justify-self: right;
+  border-image-slice: 3;
+  border-image-width: 3;
+  border-image-repeat: stretch;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+  border-image-outset: 2;
+  position: relative;
+  bottom: 18px;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 8px;
+  margin-bottom: 30px;
+  background-color: #fff
+}
+.imagen2{
+  position: relative;
+  top:10px;
+  grid-column: 4;
+  grid-row: 2;
+  justify-self: left;
+  width: 50%;
+  height: auto;
+  transform: scaleX(-1);
+
 }
 
-.App-link {
-  color: #61dafb;
+#messagelist3 {
+  grid-column: 2 /span 3 ;
+  grid-row: 3;
+  justify-self: left;
+  border-image-slice: 3;
+  border-image-width: 3;
+  border-image-repeat: stretch;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+  border-image-outset: 2;
+  position: relative;
+  bottom: 18px;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 8px;
+  margin-bottom: 30px;
+  background-color: #fff
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imagen3{
+  position: relative;
+  top:10px;
+  grid-column: 1;
+  grid-row: 3;
+  justify-self: right;
+  width: 50%;
+  height: auto;
+  /* transform: scaleX(-1); */
+
+}
+
+#messagelist4 {
+  grid-column: 1 /span 3 ;
+  grid-row: 4;
+  justify-self: right;
+  border-image-slice: 3;
+  border-image-width: 3;
+  border-image-repeat: stretch;
+  border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="8" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M3 1 h1 v1 h-1 z M4 1 h1 v1 h-1 z M2 2 h1 v1 h-1 z M5 2 h1 v1 h-1 z M1 3 h1 v1 h-1 z M6 3 h1 v1 h-1 z M1 4 h1 v1 h-1 z M6 4 h1 v1 h-1 z M2 5 h1 v1 h-1 z M5 5 h1 v1 h-1 z M3 6 h1 v1 h-1 z M4 6 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+  border-image-outset: 2;
+  position: relative;
+  bottom: 18px;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 8px;
+  margin-bottom: 30px;
+  background-color: #fff
+}
+
+
+.imagen4{
+  position: relative;
+  top:10px;
+  grid-column: 4;
+  grid-row: 4;
+  justify-self: left;
+  width: 50%;
+  height: auto;
+  transform: scaleX(-1);
+
 }
