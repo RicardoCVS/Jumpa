@@ -49,6 +49,33 @@ return (
                     imagenfront={rutaImagen2}
                 />
             <div/>
+            <div id = "Card3"></div>
+                <Card
+                    titleFront="Viva el betis"
+                    imagenBack={rutaImagen}
+                    titleBack="asd"
+                    textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa"
+                    imagenfront={rutaImagen2}
+                />
+            <div/>
+            <div id = "Card4"></div>
+                <Card
+                    titleFront="Viva el betis"
+                    imagenBack={rutaImagen}
+                    titleBack="asd"
+                    textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa"
+                    imagenfront={rutaImagen2}
+                />
+            <div/>
+            <div id = "Card5"></div>
+                <Card
+                    titleFront="Viva el betis"
+                    imagenBack={rutaImagen}
+                    titleBack="asd"
+                    textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa"
+                    imagenfront={rutaImagen2}
+                />
+            <div/>
         </div>
       </div>
     </div>
