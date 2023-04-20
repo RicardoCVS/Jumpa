@@ -7,28 +7,7 @@
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/css/main.073c9b0a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/css/main.073c9b0a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/787.d477fbfb.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/787.d477fbfb.chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/787.d477fbfb.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/787.d477fbfb.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/main.b51cc731.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/main.b51cc731.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/js/main.b51cc731.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/787.d477fbfb.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/787.d477fbfb.chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/static/js/787.d477fbfb.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/static/js/787.d477fbfb.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
