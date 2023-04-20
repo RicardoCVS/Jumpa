@@ -3,20 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Title from './title.js';
-import Inicio from './inicio.js';
-import Menu from './menu-flotante';
-
-
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Menu/>
-    <Title />
-    <Inicio />
     <App />
   </React.StrictMode>
 );

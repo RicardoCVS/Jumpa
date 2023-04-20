@@ -2,25 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import './inicio.js';
 import './menu-flotante.js';
-
-function Title(){
-
-}
-function Inicio(){
-
-}
-function Menu() { 
-
- }
-
+import Title from './title.js';
+import Inicio from './inicio.js';
+import Menu from './menu-flotante';
 function App() {
   return (
-<div>
-  
-  
-  
-  
-</div>
+    <>
+    <Menu/>
+    <Title />
+    <Inicio />
+    </>
   );
   
 }

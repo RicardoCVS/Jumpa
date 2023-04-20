@@ -1,3 +1,4 @@
+import './inicio.css';
 function Inicio() {
   const imgDani = process.env.PUBLIC_URL + '/img/avatar_dani.png'
   const imgPau = process.env.PUBLIC_URL + '/img/avatar_pau.png'
@@ -5,6 +6,7 @@ function Inicio() {
   const imgJenny = process.env.PUBLIC_URL + '/img/avatar_jenny.png'
   
     return (
+      
 <div class="grid-container">
   {/* Dani */}
     <section id="messagelist1" class="message-list">
@@ -44,8 +46,7 @@ function Inicio() {
    
     <img className="imagen4" src={imgJenny}/>
 
-  
-  </div>
+</div>  
     )
 };
 export default Inicio;
