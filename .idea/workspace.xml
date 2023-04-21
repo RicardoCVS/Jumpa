@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/model/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/repository/JuegoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/service/JuegoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JumpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JumpaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/JumpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/JumpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/repository/JuegoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/repository/JuegoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/service/JuegoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/service/JuegoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jumpa/Jumpa/JumpaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jumpa/Jumpa/JumpaApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
