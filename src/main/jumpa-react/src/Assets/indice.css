@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    position: sticky;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: auto;
+    background-color: #f0f0f0;
+  }
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  

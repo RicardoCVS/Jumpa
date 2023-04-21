@@ -14,8 +14,7 @@ function Inicio() {
         <p>Hola! Mi nombre es Daniel Hernandez</p>
       </div>
     </section>
-
-      <img className="imagen1" src={imgDani}/>
+    <img className="imagen1" src={imgDani}/>
 
        {/* Pau */}
 
@@ -24,7 +23,6 @@ function Inicio() {
         <p>Hola! Mi nombre es Pau Espinas</p>
       </div>
     </section>
-   
     <img className="imagen2" src={imgPau}/>
 
 {/* Ricardo */}
@@ -33,7 +31,6 @@ function Inicio() {
         <p>Hola! Mi nombre es Ricardo Castro</p>
       </div>
     </section>
-   
     <img className="imagen3" src={imgRicky}/>
 
 {/* Jenny */}
@@ -43,7 +40,6 @@ function Inicio() {
         <p>Hola! Mi nombre es Jennifer Rodriguez</p>
       </div>
     </section>
-   
     <img className="imagen4" src={imgJenny}/>
 
 </div>  

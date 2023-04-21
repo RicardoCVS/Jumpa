@@ -7,8 +7,6 @@ function Title() {
         </div>
       
     </div>
-      
-      
 </div>
     )
 };
