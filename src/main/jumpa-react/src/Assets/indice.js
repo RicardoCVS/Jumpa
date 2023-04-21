@@ -1,9 +1,19 @@
 import './indice.css';
 import Card from './Tarjeta.js';
 
+window.addEventListener('scroll', function() {
+  var listaLateral = document.querySelector('.sidebar');
+  if (window.pageYOffset <= 800) {
+    listaLateral.classList.add('sidebar--oculto');
+  } else {
+    listaLateral.classList.remove('sidebar--oculto');
+  }
+});
+
 function Indice(){
     const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
     const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
+    
 return (
   <>
     <div className="wrapper">

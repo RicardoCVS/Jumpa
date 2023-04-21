@@ -85,10 +85,10 @@
   .flip-card-front {
     /* background-image:url('../public/img/fondo.png');
     background-size: 70vw 90vh; */
-    background: linear-gradient(120deg, rgb(134, 248, 134) 60%, rgb(77, 239, 37) 95%,
-       rgb(27, 244, 31) 40%, rgb(65, 239, 21) 48%);
+    background-color: rgba(104, 220, 46, 0.30);
     color: rgb(0, 0, 0);
   }
+  
   
   .flip-card-back {
     background: linear-gradient(120deg, rgb(206, 249, 203) 30%, rgb(194, 250, 191) 88%,
