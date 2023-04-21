@@ -5,8 +5,7 @@ function Inicio() {
   const imgRicky = process.env.PUBLIC_URL + '/img/avatar_ricky.png'
   const imgJenny = process.env.PUBLIC_URL + '/img/avatar_jenny.png'
   
-    return (
-      
+    return (     
 <div class="grid-container">
   {/* Dani */}
     <section id="messagelist1" class="message-list">

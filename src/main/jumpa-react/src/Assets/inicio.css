@@ -2,10 +2,13 @@
     font-family:"Press Start 2P";
     
   }
-  body{
+body{
     background-image: url('../../public/img/fondo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
     background-size: cover;
-  }
+    background-attachment: fixed;
+      }
   #titulo{
     margin-left: 10vw;
     margin-right: 5vw;
@@ -17,10 +20,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-self: center;
     width: 68.5vw;
     margin-left: 16.6vw;
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px;
+    border-style: solid;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+    /* grid-gap: 1px; */
   }
   
   .grid-item {
@@ -47,6 +54,15 @@
     background-color: #fff;
   
     }
+  @media screen and (max-width: 768px) {
+    #messagelist1 {
+      /* estilos para pantallas más pequeñas */
+      grid-column: 1 /span 4;
+      justify-self: center;
+      margin: 8px auto;
+    }
+  }
+  
   .imagen1{
     position: relative;
     top:10px;
