@@ -6,11 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/JumpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/JumpaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/repository/JuegoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/repository/JuegoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/service/JuegoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/service/JuegoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jumpa/Jumpa/JumpaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jumpa/Jumpa/JumpaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JumpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JumpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/default-development/index.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/Juego.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/Juego.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/MainButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/MainButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

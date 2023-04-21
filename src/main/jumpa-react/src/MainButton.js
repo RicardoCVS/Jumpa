@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
-import "./MainButton.css";
+import Juego from './Juego';
 
 function MainButton() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +19,7 @@ function MainButton() {
         Jugar
       </button>
       <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
-        <h2>Juego integrado aquí</h2>
+        <Juego />
         <button onClick={closeModal}>Cerrar</button>
       </Modal>
     </div>
