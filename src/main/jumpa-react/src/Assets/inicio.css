@@ -7,24 +7,22 @@
     background-size: cover;
   }
   #titulo{
-    margin-bottom: 11px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-  
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
   }
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-left: 220px;
-    margin-right: 175px;
-    margin-top: 25px;
+    width: 68.5vw;
+    margin-left: 16.6vw;
     background-color: rgba(0,0,0,0.1);
-    border: 1px;
-    border-style: solid;
-    /* grid-gap: 1px; */
+    border: 1px solid;
   }
+  
   .grid-item {
     /* background-color: #ccc; */
     padding: 20px;
@@ -49,15 +47,6 @@
     background-color: #fff;
   
     }
-  @media screen and (max-width: 768px) {
-    #messagelist1 {
-      /* estilos para pantallas más pequeñas */
-      grid-column: 1 /span 4;
-      justify-self: center;
-      margin: 8px auto;
-    }
-  }
-  
   .imagen1{
     position: relative;
     top:10px;
