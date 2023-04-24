@@ -18,7 +18,7 @@ function Card({ titleFront, textFront, imagenfront, titleBack, textBack, imagenB
         <div className="flip-card-back">
           <img className="imgBack" src={imagenBack}/>
           <h1 className='tituloBack'>{titleBack}</h1>
-          <p className="texto">{textBack}</p>
+          <p className="texto" dangerouslySetInnerHTML={{__html: textBack}}></p>
         </div>
       </div>
     </div>
