@@ -1,0 +1,42 @@
+button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: rgb(255, 255, 255);
+    background: #cdc3c9;
+    background: linear-gradient(to right, #89ef90, #49c02b, #89ef90);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    align-self: center;
+    margin: 100px;
+    margin-left: 250px;
+    
+  }
+  
+  button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+    width: 50px;
+    height: 70;
+    
+  }
+  
+  button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  
+  button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+  }
+  
+  button:hover span {
+    transform: translateX(7px);
+  }

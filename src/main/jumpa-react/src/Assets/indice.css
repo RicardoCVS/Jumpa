@@ -10,6 +10,7 @@
     transform: translateY(-50%);
     width: 200px;
     height: auto;
+
     background-color: rgba(104, 220, 46, 0.30);
   }
   .sidebar--oculto {
@@ -25,7 +26,9 @@
     
 }
   .sidebar li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+    font-size: 14px;
   }
   
   .content {
