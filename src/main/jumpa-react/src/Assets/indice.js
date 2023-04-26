@@ -1,12 +1,15 @@
 import './indice.css';
 import Card from './Tarjeta.js';
 import Boton from './boton.js'
+import './lista.css';
 
 window.addEventListener('scroll', function() {
   var listaLateral = document.querySelector('.sidebar');
+  var listaLateral2 = document.querySelector('.lista');
   if (window.pageYOffset <= 800) {
     listaLateral.classList.add('sidebar--oculto');
-  } else {
+  }
+  else {
     listaLateral.classList.remove('sidebar--oculto');
   }
 });
@@ -19,24 +22,27 @@ return (
   <>
     <div className="wrapper">
       <div className="container">
+      
       <div className="sidebar">
-          <ul>
-            <li>
-              <a href="#Card1">Origen</a>
-            </li>
-            <li>
-              <a href="#Card2">Objetivo</a>
-            </li>
-            <li>
-              <a href='#Card3'>Juego</a>
-            </li>
-            <li>
-              <a href="#Card4">Futuro</a>
-            </li>
-            <li>
-              <a href="#Card5">Gracias</a>
-            </li>
-          </ul>
+        <div className="lista">
+            <ul>
+              <li>
+                <a href="#Card1">Origen</a>
+              </li>
+              <li>
+                <a href="#Card2">Objetivo</a>
+              </li>
+              <li>
+                <a href='#Card3'>Juego</a>
+              </li>
+              <li>
+                <a href="#Card4">Futuro</a>
+              </li>
+              <li>
+                <a href="#Card5">Gracias</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="content">
             <div id = "Card1">

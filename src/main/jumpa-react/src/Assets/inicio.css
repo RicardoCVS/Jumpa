@@ -21,8 +21,8 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-self: center;
-    width: 68.5vw;
-    margin-left: 16.6vw;
+    width: 70.5vw;
+    margin-left: 20.8vw;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px;
     border-style: solid;
