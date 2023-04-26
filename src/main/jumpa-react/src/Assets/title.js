@@ -2,7 +2,7 @@ function Title() {
     return (
 <div>
     <div className="App">
-      <div id="titulo"class="nes-container with-title is-centered">
+      <div id="titulo"class="nes-container with-title is-centered" >
       <h1>JUMPA</h1>
         </div>
       

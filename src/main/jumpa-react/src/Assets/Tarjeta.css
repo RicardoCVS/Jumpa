@@ -3,7 +3,7 @@
   }
   .flip-card {
     background-color: transparent;
-    width: 70vw;
+    width: 68vw;
     height: 90vh;
     perspective: 10000px;
     margin: 2%;
@@ -11,7 +11,7 @@
   
   .flip-card-inner {
     position: relative;
-    width: 70vw;
+    width: 68vw;
     height: 90vh;
     text-align: center;
     transition: transform 0.8s;

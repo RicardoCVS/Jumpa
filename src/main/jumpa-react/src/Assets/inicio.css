@@ -10,12 +10,12 @@ body{
     background-attachment: fixed;
       }
   #titulo{
-    margin-bottom: 11px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-  
+    margin-left: 10vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
   }
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -30,6 +30,7 @@ body{
     box-shadow: 0 0 40px rgba(0, 0, 0, 1);
         /* grid-gap: 1px; */
   }
+  
   .grid-item {
     /* background-color: #ccc; */
     padding: 20px;
