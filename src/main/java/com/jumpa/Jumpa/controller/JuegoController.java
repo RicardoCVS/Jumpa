@@ -25,7 +25,7 @@ public class JuegoController {
 
     @GetMapping
     public ResponseEntity<String> getJuego() {
-        String mensaje = "¡Bienvenido a Jumpa!";
+        String mensaje = "¡Bienvenido a Jumpa aunque el Dani sea maricon y cani espero disfruteis!";
         return ResponseEntity.ok(mensaje);
     }
 }

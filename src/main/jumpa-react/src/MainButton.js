@@ -1,27 +1,13 @@
-import React, { useState } from 'react';
-import Modal from 'react-modal';
-import Juego from './Juego';
+import React from 'react';
 
 function MainButton() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
+  const handleClick = () => {
+    window.location.href = 'http://localhost:8080/api/juegos';
   };
 
   return (
     <div>
-      <button className="main-button" onClick={openModal}>
-        Jugar
-      </button>
-      <Modal isOpen={isModalOpen} onRequestClose={closeModal}>
-        <Juego />
-        <button onClick={closeModal}>Cerrar</button>
-      </Modal>
+      <button onClick={handleClick}>Jugar</button>
     </div>
   );
 }
