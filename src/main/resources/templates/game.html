@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de adivinanza de números</title>
+</head>
+<body>
+<h1>Juego de adivinanza de números</h1>
+<p>Intenta adivinar el número entre 1 y 100.</p>
+
+<form th:action="@{/api/juegos}" method="post">
+    <input type="number" name="guess" min="1" max="100" required>
+    <button type="submit">Adivinar</button>
+</form>
+
+<p th:if="${message}" th:text="${message}"></p>
+</body>
+</html>

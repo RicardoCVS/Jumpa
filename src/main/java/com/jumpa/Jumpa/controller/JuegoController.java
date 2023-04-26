@@ -1,31 +1,50 @@
 package com.jumpa.Jumpa.controller;
 
-import com.jumpa.Jumpa.model.Juego;
-import com.jumpa.Jumpa.service.JuegoService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-@RestController
+import java.util.Random;
+
+@Controller
 @RequestMapping("/api/juegos")
 public class JuegoController {
 
-    @Autowired
-    private JuegoService juegoService;
+    private int targetNumber;
+    private int attempts;
 
-    @GetMapping("/{id}")
-    public ResponseEntity<Juego> getJuegoById(@PathVariable Long id) {
-        System.out.println("Petición recibida para juego con ID: " + id);
-        Juego juego = juegoService.getJuegoById(id);
-        if (juego == null) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(juego);
+    public JuegoController() {
+        resetGame();
     }
 
     @GetMapping
-    public ResponseEntity<String> getJuego() {
-        String mensaje = "¡Bienvenido a Jumpa aunque el Dani sea maricon y cani espero disfruteis!";
-        return ResponseEntity.ok(mensaje);
+    public String showGamePage() {
+        return "game";
+    }
+
+    @PostMapping
+    public String processGuess(@RequestParam("guess") int guess, Model model) {
+        attempts++;
+
+        String message;
+        if (guess == targetNumber) {
+            message = "¡Correcto! El número era " + targetNumber + ". Lo adivinaste en " + attempts + " intentos.";
+            resetGame();
+        } else if (guess < targetNumber) {
+            message = "¡Incorrecto! Intenta un número más grande.";
+        } else {
+            message = "¡Incorrecto! Intenta un número más pequeño.";
+        }
+
+        model.addAttribute("message", message);
+        return "game";
+    }
+
+    private void resetGame() {
+        targetNumber = new Random().nextInt(100) + 1;
+        attempts = 0;
     }
 }
