@@ -10,9 +10,13 @@
     transform: translateY(-50%);
     width: 200px;
     height: auto;
-
-    background-color: rgba(104, 220, 46, 0.30);
+    border: 1px;
+    border-style:solid;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+    background-color: rgba(111, 181, 102, 0.52);
+    /* background-color: rgba(104, 220, 46, 0.30); */
   }
+
   .sidebar--oculto {
     visibility: hidden;
   }

@@ -36,7 +36,7 @@ function Inicio() {
 
 <section id="messagelist4" class="message-list">
       <div class="nes-balloon from-right">
-        <p>Hola! Mi nombre es Jennifer Rodriguez</p>
+        <p>Hola! Mi nombre es Jennifer R. </p>
       </div>
     </section>
     <img className="imagen4" src={imgJenny}/>
