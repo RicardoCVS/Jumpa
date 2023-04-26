@@ -10,18 +10,22 @@ body{
     background-attachment: fixed;
       }
   #titulo{
-    margin-left: 10vw;
+    margin-left: 15vw;
     margin-right: 5vw;
     margin-top: 1vh;
     margin-bottom: 2vh;
   }
-
+  .social{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-self: center;
-    width: 70.5vw;
+    width: 68.5vw;
     margin-left: 20.8vw;
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px;
