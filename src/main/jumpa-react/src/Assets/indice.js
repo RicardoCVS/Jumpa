@@ -1,5 +1,6 @@
 import './indice.css';
 import Card from './Tarjeta.js';
+import Boton from './boton.js'
 
 window.addEventListener('scroll', function() {
   var listaLateral = document.querySelector('.sidebar');
@@ -27,7 +28,7 @@ return (
               <a href="#Card2">Objetivo</a>
             </li>
             <li>
-              <a href="#Card3">Juego</a>
+              <a href='#Card3'>Juego</a>
             </li>
             <li>
               <a href="#Card4">Futuro</a>
@@ -50,7 +51,7 @@ return (
                     imagenfront={rutaImagen2}
                 />
             </div>
-            <div id = "Card2"></div>
+            <div id = "Card2">
                 <Card
                     titleFront="¿Cuál es nuestro objetivo?"
                     imagenBack={rutaImagen}
@@ -62,17 +63,11 @@ return (
                     "
                     imagenfront={rutaImagen2}
                 />
-            <div/>
-            <div id = "Card3"></div>
-                <Card
-                    titleFront="Sin más dilación el plato principal"
-                    imagenBack={rutaImagen}
-                    titleBack="asd"
-                    textBack="Pipsa,Pipsa,Pipsa,Pipsa,Pipsa"
-                    imagenfront={rutaImagen2}
-                />
-            <div/>
-            <div id = "Card4"></div>
+            </div>
+            <div id = "Card3">
+                <Boton />
+            </div>
+            <div id = "Card4">
                 <Card
                     titleFront="¿El futuro?"
                     imagenBack={rutaImagen}
@@ -84,8 +79,8 @@ return (
                     "
                     imagenfront={rutaImagen2}
                 />
-            <div/>
-            <div id = "Card5"></div>
+            </div>
+            <div id = "Card5">
                 <Card
                     titleFront="Agradecimientos"
                     imagenBack={rutaImagen}
@@ -94,12 +89,12 @@ return (
                     que nos ha brindado la Fundación Esplai junto al SOC.<br><br>
                     En especial a David, Lydia y Araceli, que nos han estado 
                     apoyando durante estos 3 meses de trabajo.<br><br>
-                    Esperamos que esto sea el comiendo de algo grande y de lo que 
+                    Esperamos que esto sea el comienzo de algo grande y de lo que 
                     podamos estar orgullosos.
                     "
                     imagenfront={rutaImagen2}
                 />
-            <div/>
+            </div>
         </div>
       </div>
     </div>
