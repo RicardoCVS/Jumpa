@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import MainButton from './MainButton';
 import Title from './Assets/title.js';
 import Inicio from './Assets/inicio.js';
 import Indice from './Assets/indice.js';
@@ -12,11 +11,6 @@ function App() {
     <Title />
     <Inicio />
     <Indice />
-    <div className="App">
-      <header className="App-header">
-        <MainButton />
-              </header>
-    </div>
     </>
   );
 }
