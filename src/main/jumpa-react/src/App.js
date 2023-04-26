@@ -1,27 +1,24 @@
 import React from 'react';
 import './App.css';
 import MainButton from './MainButton';
-import './Assets/inicio.js';
-import './App.css'
 import Title from './Assets/title.js';
 import Inicio from './Assets/inicio.js';
-import Indice from './Assets/indice.js'
+import Indice from './Assets/indice.js';
+
 
 function App() {
-   
   return (
+    <>
+    <Title />
+    <Inicio />
+    <Indice />
     <div className="App">
       <header className="App-header">
         <MainButton />
-        <Title />
-        <Inicio />
-        <Indice />
-      </header>
+              </header>
     </div>
-    
+    </>
   );
-  
 }
-
 
 export default App;
