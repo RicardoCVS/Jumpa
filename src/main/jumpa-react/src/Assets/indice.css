@@ -1,3 +1,7 @@
+.xico{
+  
+  margin-top: 2%;
+}
 .carrousel{
   width: 75%;
   max-width: 120em;
@@ -26,7 +30,6 @@
 }
 .carrousel .puntos{
   width: 100%;
-  background-color: red;
   padding: 1em;
   display: flex;
   flex-flow: row nowrap;
@@ -45,5 +48,6 @@
   border-radius: 50px;
 }
 .carrousel .punto.activo{
-  background-color: orange;
+  background: rgb(240,19,226);
+  background: radial-gradient(circle, rgba(240,19,226,0.9205883036808473) 0%, rgba(0,0,0,0.7637255585828081) 59%, rgba(0,0,0,0.5200280795912116) 100%);
 }

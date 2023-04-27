@@ -29,6 +29,7 @@ function Indice(){
     
 return (
   <>
+  <div className='xico'>
     <div className='carrousel'>
         <div className="content">
             <div className = "card1">
@@ -95,6 +96,7 @@ return (
           <li className='punto'></li>
           <li className='punto'></li>
         </ul>
+    </div>
     </div>
   </>
 );
