@@ -13,38 +13,10 @@ import java.util.Random;
 @RequestMapping("/api/juegos")
 public class JuegoController {
 
-    private int targetNumber;
-    private int attempts;
-
-    public JuegoController() {
-        resetGame();
-    }
-
     @GetMapping
     public String showGamePage() {
-        return "game";
-    }
-
-    @PostMapping
-    public String processGuess(@RequestParam("guess") int guess, Model model) {
-        attempts++;
-
-        String message;
-        if (guess == targetNumber) {
-            message = "¡Correcto! El número era " + targetNumber + ". Lo adivinaste en " + attempts + " intentos.";
-            resetGame();
-        } else if (guess < targetNumber) {
-            message = "¡Incorrecto! Intenta un número más grande.";
-        } else {
-            message = "¡Incorrecto! Intenta un número más pequeño.";
-        }
-
-        model.addAttribute("message", message);
-        return "game";
-    }
-
-    private void resetGame() {
-        targetNumber = new Random().nextInt(100) + 1;
-        attempts = 0;
+        return "Juego.html";
     }
 }
+
+
