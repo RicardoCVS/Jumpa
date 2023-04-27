@@ -1,50 +1,49 @@
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
+.carrousel{
+  width: 75%;
+  max-width: 120em;
+  display: flexbox;
+  overflow: hidden;
+  margin-left: 13%;
+  margin-bottom: 1%;
+  border-radius: 30px;
+  background: lightgrey;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
-
-.container {
+.carrousel .content{
+  width: 500%;
   display: flex;
-  align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
+  flex-flow: row nowrap;
+  align-items: center;
+  
 }
-
-.sidebar {
-  position: sticky;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 200px;
+.carrousel .card1, .card2, .card3, .card4, .card5 {
+  background-color: rgb(187, 198, 183);
+  width: calc(100%/5);
+  margin: 0.5%;
   height: auto;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
 }
-
-.sidebar--oculto{
-  visibility: hidden;
-}
-
-a{
-  color: black;
-  text-decoration-color: none;
-}
-
-a:hover {
-  text-decoration: none;
-  text-decoration-color: none;
-}
-
-.sidebar li {
-  margin-right: 30px;
-  margin-bottom: 5px;
-  list-style: none;
-  font-size: 14px;
-}
-
-.content {
+.carrousel .puntos{
+  width: 100%;
+  background-color: red;
+  padding: 1em;
   display: flex;
-  flex-direction: column;
-  margin-left: 20px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgb(223, 225, 235);
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.carrousel .punto{
+  width: 2em;
+  height: 2em;
+  
+  background-color: rgba(34, 34, 237, 0.038);
+  margin: 1em;
+  border-radius: 50px;
+}
+.carrousel .punto.activo{
+  background-color: orange;
 }

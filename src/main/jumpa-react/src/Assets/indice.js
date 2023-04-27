@@ -1,18 +1,27 @@
 import './indice.css';
 import Card from './Tarjeta.js';
 import Boton from './boton.js'
-import './lista.css';
+function lospuntos(){
+  const content    = document.querySelector('.content')
+  const punto     = document.querySelectorAll('.punto')
+  punto.forEach( ( cadaPunto , i )=> {
+    punto[i].addEventListener('click',()=>{
 
-window.addEventListener('scroll', function() {
-  var listaLateral = document.querySelector('.sidebar');
-  var listaLateral2 = document.querySelector('.lista');
-  if (window.pageYOffset <= 800) {
-    listaLateral.classList.add('sidebar--oculto');
-  }
-  else {
-    listaLateral.classList.remove('sidebar--oculto');
-  }
-});
+        let posicion  = i
+        
+        let operacion = posicion * -20
+
+        content.style.transform = `translateX(${ operacion }%)`
+
+        punto.forEach( ( cadaPunto , i )=>{
+            punto[i].classList.remove('activo')
+        })
+        punto[i].classList.add('activo')
+
+    })
+  })
+}
+ 
 
 function Indice(){
     const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
@@ -20,32 +29,9 @@ function Indice(){
     
 return (
   <>
-    <div className="wrapper">
-      <div className="container">
-      
-      <div className="sidebar">
-        <div className="lista">
-            <ul>
-              <li>
-                <a href="#Card1">Origen</a>
-              </li>
-              <li>
-                <a href="#Card2">Objetivo</a>
-              </li>
-              <li>
-                <a href='#Card3'>Juego</a>
-              </li>
-              <li>
-                <a href="#Card4">Futuro</a>
-              </li>
-              <li>
-                <a href="#Card5">Gracias</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div className='carrousel'>
         <div className="content">
-            <div id = "Card1">
+            <div className = "card1">
                 <Card
                     titleFront="¿Como surgió JUMPA?"
                     imagenBack={rutaImagen}
@@ -57,7 +43,7 @@ return (
                     imagenfront={rutaImagen2}
                 />
             </div>
-            <div id = "Card2">
+            <div className = "card2">
                 <Card
                     titleFront="¿Cuál es nuestro objetivo?"
                     imagenBack={rutaImagen}
@@ -70,10 +56,10 @@ return (
                     imagenfront={rutaImagen2}
                 />
             </div>
-            <div id = "Card3">
+            <div className = "card3">
                 <Boton />
             </div>
-            <div id = "Card4">
+            <div className = "card4">
                 <Card
                     titleFront="¿El futuro?"
                     imagenBack={rutaImagen}
@@ -86,7 +72,7 @@ return (
                     imagenfront={rutaImagen2}
                 />
             </div>
-            <div id = "Card5">
+            <div className = "card5">
                 <Card
                     titleFront="Agradecimientos"
                     imagenBack={rutaImagen}
@@ -102,7 +88,13 @@ return (
                 />
             </div>
         </div>
-      </div>
+        <ul className='puntos'onClick={lospuntos}>
+          <li className='punto activo'></li>
+          <li className='punto'></li>
+          <li className='punto'></li>
+          <li className='punto'></li>
+          <li className='punto'></li>
+        </ul>
     </div>
   </>
 );

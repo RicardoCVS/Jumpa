@@ -1,5 +1,4 @@
 import './inicio.css';
-import Social from './social'
 
 function Inicio() {
   const imgDani = process.env.PUBLIC_URL + '/img/avatar_dani.png'
@@ -9,9 +8,6 @@ function Inicio() {
   
     return (
   <>
-    <div className='social'> 
-    <Social />
-    </div>
     <div class="grid-container">
       {/* Dani */}
         <section id="messagelist1" class="message-list">
