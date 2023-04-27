@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2ONZhizu6vUbAwyMnf0VYTeh5UT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

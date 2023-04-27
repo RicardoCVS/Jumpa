@@ -1,11 +1,17 @@
 import './boton.css';
+import React from 'react';
 
-function Boton(){
-    return (
-      <button>
-        <svg
+function Boton() {
+  const handleClick = () => {
+    window.location.href = 'http://localhost:8080/api/juegos';
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>
+      <svg
           viewBox="0 0 24 24"
-        >
+      >
           <path fill="none" d="M0 0h24v24H0z"></path>
           <path
             fill="currentColor"
@@ -14,6 +20,8 @@ function Boton(){
         </svg>
         <span>JUMPA</span>
       </button>
-    );
+    </div>
+  );
 }
+
 export default Boton;
