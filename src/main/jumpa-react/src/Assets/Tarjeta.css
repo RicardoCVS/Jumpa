@@ -4,7 +4,8 @@
   .flip-card {
     background-color: transparent;
     perspective: 10000px;
-    width: 100%;
+    
+    
    
   }
   
@@ -16,6 +17,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
   
   .flip-card.flipped .flip-card-inner {
@@ -34,6 +36,7 @@
     backface-visibility: hidden;
     border: 1px solid rgb(74, 255, 65);
     border-radius: 30px;;
+    
     
   }
   .flip-card-back{
@@ -88,6 +91,7 @@
     background-size: 70vw 90vh; */
     background-color: rgba(104, 220, 46, 0.30);
     color: rgb(0, 0, 0);
+    
   }
   
   
@@ -97,5 +101,6 @@
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+    
   }
   
