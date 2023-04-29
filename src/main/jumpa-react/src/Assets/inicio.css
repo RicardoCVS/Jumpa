@@ -1,20 +1,17 @@
 *{
-    font-family:"Press Start 2P";
-    
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
   }
 body{
-    background-image: url('../../public/img/fondo.png');
-    background-size:contain;
+    /* background-image: url('../../public/img/teamb.png'); */
+    /* background-size:contain;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-      }
-  #titulo{
-    margin-left: 15vw;
-    margin-right: 5vw;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
+    background-attachment: fixed; */
+    font-family: 'Open Sans', 'sans-serif';  
   }
+
   .social{
     position: absolute;
     top: 50%;
@@ -25,12 +22,9 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-self: center;
-    width: 68.5vw;
-    margin-left: 20.8vw;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: auto;
+    background: var(--color-fondo);
     border: 1px;
-    border-style: solid;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
     /* grid-gap: 1px; */
   }
   
@@ -38,6 +32,7 @@ body{
     /* background-color: #ccc; */
     padding: 20px;
     text-align: center;
+    
   }
   
   #messagelist1 {

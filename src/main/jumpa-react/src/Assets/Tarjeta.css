@@ -1,10 +1,9 @@
-*{
-    font-family:"Press Start 2P"!important;
-  }
+
   .flip-card {
     background-color: transparent;
     perspective: 10000px;
-    width: 100%;
+    
+    
    
   }
   
@@ -16,6 +15,7 @@
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
   
   .flip-card.flipped .flip-card-inner {
@@ -32,8 +32,9 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    border: 1px solid rgb(74, 255, 65);
+    border: 1px solid var(--color-verde-claro);
     border-radius: 30px;;
+    
     
   }
   .flip-card-back{
@@ -88,16 +89,17 @@
   .flip-card-front {
     /* background-image:url('../public/img/fondo.png');
     background-size: 70vw 90vh; */
-    background-color: rgba(104, 220, 46, 0.30);
+    background-color: rgba(58, 165, 46, 0.30);
     color: rgb(0, 0, 0);
+    
   }
   
   
   .flip-card-back {
-    background: linear-gradient(120deg, rgb(206, 249, 203) 30%, rgb(194, 250, 191) 88%,
-       rgb(196, 255, 198) 40%, rgb(161, 237, 123) 78%);
+    background: linear-gradient(120deg, var(--color-fondo-sombra) 95%, var(--color-amarillo-brillante) 0%);
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+    
   }
   
