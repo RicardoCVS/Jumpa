@@ -1,6 +1,6 @@
-import './indice.css';
+import './carrusel.css';
 import Card from './Tarjeta.js';
-import Boton from './boton.js'
+import Boton from './boton.js';
 function lospuntos(){
   const content    = document.querySelector('.content')
   const punto     = document.querySelectorAll('.punto')
@@ -23,7 +23,7 @@ function lospuntos(){
 }
  
 
-function Indice(){
+function Carrusel(){
     const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
     const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
     
@@ -102,4 +102,4 @@ return (
 );
 }
 
-export default Indice;
+export default Carrusel;
