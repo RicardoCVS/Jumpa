@@ -2,9 +2,6 @@
   .flip-card {
     background-color: transparent;
     perspective: 10000px;
-    
-    
-   
   }
   
   .flip-card-inner {
@@ -58,7 +55,7 @@
     height: 90%;
   }
   .imgFront{
-    width: 150%;
+    width: 90%;
     height: auto;
     grid-column: 2;
     justify-self: center;
@@ -87,16 +84,15 @@
   }
   
   .flip-card-front {
-    /* background-image:url('../public/img/fondo.png');
-    background-size: 70vw 90vh; */
-    background-color: rgba(58, 165, 46, 0.30);
-    color: rgb(0, 0, 0);
-    
+    background-image: radial-gradient(circle, rgba(23, 195, 23, 0.43) 0%, rgba(168, 183, 72, 0.349) 59%, rgba(226,236,20,0.5200280795912116) 100%), 
+    url(../../public/img/fondo.jpg);
+    background-size: 100%;
+    color: rgb(255, 255, 255); 
   }
   
   
   .flip-card-back {
-    background: linear-gradient(120deg, var(--color-fondo-sombra) 95%, var(--color-amarillo-brillante) 0%);
+    background: linear-gradient(140deg, var(--color-fondo-sombra) 95%, var(--color-amarillo-brillante) 0%);
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
     transform-style: preserve-3d;

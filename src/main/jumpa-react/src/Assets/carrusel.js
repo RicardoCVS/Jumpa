@@ -25,7 +25,11 @@ function lospuntos(){
 
 function Carrusel(){
     const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
+    const fundacio = process.env.PUBLIC_URL + '/img/fundacio.jpg';
     const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
+    const idea = process.env.PUBLIC_URL + '/img/ideas.jpg';
+    const objetivo = process.env.PUBLIC_URL + '/img/objetivo.png';
+    const jumpa = process.env.PUBLIC_URL + '/img/jumpa.png';
     
 return (
   <>
@@ -35,7 +39,7 @@ return (
             <div className = "card1">
                 <Card
                     titleFront="¿Como surgió JUMPA?"
-                    imagenBack={rutaImagen}
+                    imagenBack={jumpa}
                     titleBack="El origen"
                     textBack="Jumpa nace apartir de un gusto en comun, los videojuegos.<br>
                     Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
@@ -47,7 +51,7 @@ return (
             <div className = "card2">
                 <Card
                     titleFront="¿Cuál es nuestro objetivo?"
-                    imagenBack={rutaImagen}
+                    imagenBack={objetivo}
                     titleBack="Concienciar"
                     textBack="Con este proyecto, queremos hacer más divertida y amena la coincienciación
                     por el medio ambiente.<br><br> 
@@ -63,7 +67,7 @@ return (
             <div className = "card4">
                 <Card
                     titleFront="¿El futuro?"
-                    imagenBack={rutaImagen}
+                    imagenBack={idea}
                     titleBack="En el tintero"
                     textBack="Que ideas nos gustaría añadir en un futuro?<br><br>
                     Por supuesto más minijuegos (aquí tenemos que añadir minijuegos).<br><br>
@@ -76,7 +80,7 @@ return (
             <div className = "card5">
                 <Card
                     titleFront="Agradecimientos"
-                    imagenBack={rutaImagen}
+                    imagenBack={fundacio}
                     titleBack="El inicio"
                     textBack="Todo esto ha sido posible gracias a la oportunidad
                     que nos ha brindado la Fundación Esplai junto al SOC.<br><br>
