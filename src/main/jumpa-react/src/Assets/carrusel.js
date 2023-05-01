@@ -33,7 +33,7 @@ function Carrusel(){
     
 return (
   <>
-  <div className='xico'>
+  <div className='xico' id="diapositivas">
     <div className='carrousel'>
         <div className="content">
             <div className = "card1">

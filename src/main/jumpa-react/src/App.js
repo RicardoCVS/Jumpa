@@ -16,7 +16,7 @@ function App() {
     <TeamB />
     <Inicio />
     <Carrusel />
-    <Gallery />
+    
     <Footer />
    
     </>

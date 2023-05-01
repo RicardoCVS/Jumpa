@@ -15,6 +15,7 @@ function Footer() {
           <div class="social-media">
             <a href="./" class="social-media-icon">
               <i class="bx bxl-linkedin"></i>
+              <span class="my-tooltip">Texto chico</span>
             </a>
             <a href="./" class="social-media-icon">
               <i class="bx bxl-linkedin"></i>

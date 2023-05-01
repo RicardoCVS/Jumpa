@@ -8,7 +8,7 @@ function Inicio() {
   
   return (
     <>
-            <div class="grid-container">
+      <div class="grid-container" id="nosotros">
         {/* Dani */}
         <section id="messagelist1" class="message-list">
           <div class="nes-balloon from-left">
