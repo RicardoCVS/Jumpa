@@ -22,3 +22,5 @@ public class JuegoController {
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);
     }
 }
+
+
