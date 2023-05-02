@@ -1,20 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.animated-title {
+    font-size: 2rem;
+    margin: 40px;
+    animation: fadeInDown 2s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 #game-container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #trash-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.trash-item {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 20px;
+    animation: float 3s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 #bins-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .bin {
@@ -25,4 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
