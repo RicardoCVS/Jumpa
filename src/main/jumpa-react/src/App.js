@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Title from './assets/title.js';
 import Inicio from './assets/inicio.js';
-import Indice from './assets/indice.js';
 
 import Carrusel from './assets/carrusel.js';
 import TeamB from './assets/teamb';
@@ -18,8 +17,7 @@ function App() {
     <Inicio />
     <TeamB />
     <Carrusel />
-    <Footer />
-   
+    <Footer /> 
     </>
   );
 }
