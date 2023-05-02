@@ -24,7 +24,7 @@
   align-items: center;
   
 }
-.carrousel .card1, .card2, .card3, .card4, .card5 {
+.carrousel .card1, .card2, .card3, .card4, .card5, .card6 {
   background-color: rgb(187, 198, 183);
   width: calc(100%/6);
   margin: 0.5%;

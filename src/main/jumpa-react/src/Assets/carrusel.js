@@ -66,7 +66,7 @@ return (
             <div className = "card3">
                 <Boton />
             </div>
-            <div className = "card4">
+            <div className = "card6">
                 <Card
                     titleFront="¿Con que se ha hecho?"
                     imagenBack={tec}
@@ -74,10 +74,8 @@ return (
                     textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
                     html y css, javascript.<br> Para organizarnos hemos usado Trello y la metodología de SCRUM, para 
                     organizarnos y realizar diversos Sprints de los objetivos/tareas que nos marcabamos.
-                    
                     <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habeis visto
                     hasta ahora.
-
                     "
                     imagenfront={rutaImagen2}
                 />

@@ -16,6 +16,7 @@ header{
     align-items: center;
     flex-direction: column;
     color: white;
+    text-shadow: 1px 1px 0 black;
 }
 
 
@@ -81,12 +82,16 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     border: none;
     background:rgba(143, 213, 13, 0.114);
     box-shadow: 0 5px #a0f224;
+    transition: background-color 0.3s ease-in-out;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
     
 
 }
 .menu-navegacion a:hover {
-    box-shadow: 0 3px #a0f224;
+    box-shadow: 0 3px #cbfd27;
     top: 1px;
+    text-shadow: 1px 1px 0 black;
   }
 .titulo{
     font-size: 60px;
