@@ -7,7 +7,6 @@ function Card({ titleFront, textFront, imagenfront, titleBack, textBack, imagenB
   const handleClick = () => {
     setFlipped(!flipped);
   };
-
   return (
     <div className={`flip-card ${flipped ? 'flipped' : ''}`} onClick={handleClick}>
       <div className="flip-card-inner">

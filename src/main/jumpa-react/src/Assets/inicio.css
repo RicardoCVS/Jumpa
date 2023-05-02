@@ -1,11 +1,19 @@
 *{
+<<<<<<< HEAD
   font-family: "Sigmar";
 }
+=======
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+>>>>>>> 71d3b8864c32aba0c4920fc014e93c577e0f557d
 body{
-    background-image: url('../../public/img/fondo.png');
-    background-size:contain;
+    /* background-image: url('../../public/img/teamb.png'); */
+    /* background-size:contain;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     background-attachment: fixed;
    
 
@@ -16,19 +24,27 @@ body{
     margin-right: 5vw;
     margin-top: 1vh;
     margin-bottom: 2vh;
+=======
+    background-attachment: fixed; */
+    font-family: 'Open Sans', 'sans-serif';  
+>>>>>>> 71d3b8864c32aba0c4920fc014e93c577e0f557d
   }
 
+  .social{
+    position: absolute;
+    top: 50%;
+    left: 40px;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-self: center;
-    width: 70.5vw;
-    margin-left: 20.8vw;
-    background-color: rgba(0, 0, 0, 0.3);
+    width: auto;
+    border-radius: 30px;
+    margin: 20px;
+    background: var(--color-fondo-sombra);
     border: 1px;
-    border-style: solid;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 1);
     /* grid-gap: 1px; */
   }
   
@@ -36,6 +52,7 @@ body{
     /* background-color: #ccc; */
     padding: 20px;
     text-align: center;
+    
   }
   
   #messagelist1 {
