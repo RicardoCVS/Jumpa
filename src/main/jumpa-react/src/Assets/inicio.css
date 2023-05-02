@@ -1,33 +1,15 @@
 *{
-<<<<<<< HEAD
-  font-family: "Sigmar";
-}
-=======
     margin:0px;
     padding:0px;
     box-sizing: border-box;
   }
->>>>>>> 71d3b8864c32aba0c4920fc014e93c577e0f557d
 body{
     /* background-image: url('../../public/img/teamb.png'); */
     /* background-size:contain;
     background-repeat: no-repeat;
     background-size: cover;
-<<<<<<< HEAD
-    background-attachment: fixed;
-   
-
-   
-      }
-  #titulo{
-    margin-left: 10vw;
-    margin-right: 5vw;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
-=======
     background-attachment: fixed; */
     font-family: 'Open Sans', 'sans-serif';  
->>>>>>> 71d3b8864c32aba0c4920fc014e93c577e0f557d
   }
 
   .social{
