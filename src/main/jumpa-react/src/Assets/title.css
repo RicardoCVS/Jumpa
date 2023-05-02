@@ -52,7 +52,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid;
     border-color: rgb(23, 243, 11);
     z-index: 9999;
-    
+
 }
 
 .menu-navegacion-active {
@@ -89,10 +89,10 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     top: 1px;
   }
 .titulo{
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 15px;
 }
 .copy{
     font-weight: 300;
-    font-size: 45px;
+    font-size: 30px;
 }
