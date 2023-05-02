@@ -29,6 +29,7 @@ function Carrusel(){
     const fundacio = process.env.PUBLIC_URL + '/img/fundacio.jpg';
     const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
     const idea = process.env.PUBLIC_URL + '/img/ideas.jpg';
+    const tec = process.env.PUBLIC_URL + '/img/tecnologia.jpg';
     const objetivo = process.env.PUBLIC_URL + '/img/objetivo.png';
     const jumpa = process.env.PUBLIC_URL + '/img/jumpa.png';
     
@@ -68,7 +69,7 @@ return (
             <div className = "card4">
                 <Card
                     titleFront="¿Con que se ha hecho?"
-                    imagenBack={idea}
+                    imagenBack={tec}
                     titleBack="Tecnologías"
                     textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
                     html y css, javascript.<br> Para organizarnos hemos usado Trello y la metodología de SCRUM, para 

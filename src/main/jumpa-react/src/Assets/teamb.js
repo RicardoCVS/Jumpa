@@ -11,35 +11,26 @@ return (
             <div class="checklist-servicio">
               <div class="service">
                 <h3 class="n-service">
-                  <span class="number">1</span>Diseño Web
+                  <span class="number">1</span>Coincienciar
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  malesuada urna non elit tincidunt, vitae tempor augue cursus.
-                  Mauris luctus nunc nec risus rutrum, et eleifend mi
-                  condimentum.
+                  Queremos coincienciar a las nuevas generaciones con buenos hábitos
                 </p>
               </div>
               <div class="service">
                 <h3 class="n-service">
-                  <span class="number">2</span>Diseño Web2
+                  <span class="number">2</span>Diversión
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  malesuada urna non elit tincidunt, vitae tempor augue cursus.
-                  Mauris luctus nunc nec risus rutrum, et eleifend mi
-                  condimentum.
+                  No hay mejor manera de aprender que con juegos
                 </p>
               </div>
               <div class="service">
                 <h3 class="n-service">
-                  <span class="number">3</span>Diseño Web3
+                  <span class="number">3</span>Nuestro granito de arena
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  malesuada urna non elit tincidunt, vitae tempor augue cursus.
-                  Mauris luctus nunc nec risus rutrum, et eleifend mi
-                  condimentum.
+                  Cada acción cuenta y juntos podemos revertir la situación
                 </p>
               </div>
             </div>
