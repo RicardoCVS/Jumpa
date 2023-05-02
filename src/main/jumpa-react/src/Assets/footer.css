@@ -71,7 +71,7 @@ footer{
     background-position:center;
 }
 .social-media-icon4:hover{
-    background: white;
+    background: gwhite;
     color: #a5e292;
     background-image:url(../../public/img/avatar_jenny.png );
     background-repeat: no-repeat;
@@ -92,8 +92,4 @@ footer{
     height: 2px;
     background: white;
     margin-bottom: 60px;
-}
-
-.linkedin1{
-    
 }

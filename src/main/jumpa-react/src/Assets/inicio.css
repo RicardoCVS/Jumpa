@@ -55,7 +55,7 @@
     grid-column: 1;
     grid-row: 1;
     justify-self: right;
-    width: 40vh;
+    width: 30vh;
     height: auto;
     /* transform: scaleX(-1); */
   
@@ -85,7 +85,7 @@
     grid-column: 4;
     grid-row: 2;
     justify-self: left;
-    width: 40vh;
+    width: 30vh;
     height: auto;
     transform: scaleX(-1);
   
@@ -116,7 +116,7 @@
     grid-column: 1;
     grid-row: 3;
     justify-self: right;
-    width: 40vh;
+    width: 30vh;
     height: auto;
     /* transform: scaleX(-1); */ 
   }
@@ -146,7 +146,7 @@
     grid-column: 4;
     grid-row: 4;
     justify-self: left;
-    width: 40vh;
+    width: 30vh;
     height: auto;
     transform: scaleX(-1);
   
