@@ -1,13 +1,15 @@
 *{
-    font-family:"Press Start 2P";
-    
-  }
+  font-family: "Sigmar";
+}
 body{
     background-image: url('../../public/img/fondo.png');
     background-size:contain;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+   
+
+   
       }
   #titulo{
     margin-left: 10vw;
