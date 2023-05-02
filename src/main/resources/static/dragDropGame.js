@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     trashItems.forEach(item => {
         item.addEventListener('dragstart', handleDragStart);
-        item.addEventListener('dragend', handleDragEnd);
     });
 
     bins.forEach(bin => {
@@ -17,16 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleDragStart(e) {
         e.dataTransfer.setData('text/plain', e.target.id);
         e.dataTransfer.setDragImage(e.target, e.target.width / 2, e.target.height / 2);
-        e.dataTransfer.effectAllowed = 'move';
-    }
-
-    function handleDragEnd(e) {
-        e.target.style.opacity = '1';
     }
 
     function handleDragOver(e) {
         e.preventDefault();
-        e.dataTransfer.dropEffect = 'move';
     }
 
     function handleDrop(e) {
@@ -39,9 +32,23 @@ document.addEventListener('DOMContentLoaded', function () {
             e.target.appendChild(item);
             item.setAttribute('draggable', 'false');
             correctCount++;
+
             if (correctCount === trashItems.length) {
-                message.innerHTML = '¡Bien hecho!';
+                showMessage('Bien hecho');
             }
+        } else {
+            showMessage('¡Te has equivocado!');
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
         }
+    }
+
+    function showMessage(text) {
+        message.textContent = text;
+        message.classList.remove('hidden');
+        setTimeout(() => {
+            message.classList.add('hidden');
+        }, 2000);
     }
 });
