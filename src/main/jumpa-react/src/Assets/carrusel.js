@@ -4,12 +4,13 @@ import Boton from './boton.js';
 function lospuntos(){
   const content    = document.querySelector('.content')
   const punto     = document.querySelectorAll('.punto')
+  const position = 100/6
   punto.forEach( ( cadaPunto , i )=> {
     punto[i].addEventListener('click',()=>{
 
         let posicion  = i
         
-        let operacion = posicion * -20
+        let operacion = posicion * -position
 
         content.style.transform = `translateX(${ operacion }%)`
 
@@ -66,6 +67,22 @@ return (
             </div>
             <div className = "card4">
                 <Card
+                    titleFront="¿Con que se ha hecho?"
+                    imagenBack={idea}
+                    titleBack="Tecnologías"
+                    textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
+                    html y css, javascript.<br> Para organizarnos hemos usado Trello y la metodología de SCRUM, para 
+                    organizarnos y realizar diversos Sprints de los objetivos/tareas que nos marcabamos.
+                    
+                    <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habeis visto
+                    hasta ahora.
+
+                    "
+                    imagenfront={rutaImagen2}
+                />
+            </div>
+            <div className = "card4">
+                <Card
                     titleFront="¿El futuro?"
                     imagenBack={idea}
                     titleBack="En el tintero"
@@ -95,6 +112,7 @@ return (
         </div>
         <ul className='puntos'onClick={lospuntos}>
           <li className='punto activo'></li>
+          <li className='punto'></li>
           <li className='punto'></li>
           <li className='punto'></li>
           <li className='punto'></li>

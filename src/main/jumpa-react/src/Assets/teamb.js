@@ -1,5 +1,5 @@
 import "./teamb.css";
-const imgteam = process.env.PUBLIC_URL + "/img/teamb.svg";
+const imgteam = process.env.PUBLIC_URL + "/img/Mountain.svg";
 function TeamB() {
 return (
     <>

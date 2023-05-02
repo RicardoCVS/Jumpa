@@ -1,6 +1,7 @@
 footer{
     background: var(--color-fondo-sombra);
     padding-bottom: 0.1px;
+    margin-top: 4%;
 }
 .footer-content{
     display: flex;

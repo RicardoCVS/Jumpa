@@ -23,7 +23,9 @@ body{
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-self: center;
     width: auto;
-    background: var(--color-fondo);
+    border-radius: 30px;
+    margin: 20px;
+    background: var(--color-fondo-sombra);
     border: 1px;
     /* grid-gap: 1px; */
   }
