@@ -89,8 +89,9 @@
     background-size: 100px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-position:center;
+
     color: rgb(0, 0, 0); 
   }
   
