@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Juego de adivinanza de números</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<h1>Juego de arrastrar y soltar basura</h1>
+
+<div id="game-container">
+    <div id="trash-container">
+        <img id="paper" src="/assets/paper.png" draggable="true" alt="Papel">
+        <img id="plastic" src="/assets/plastic.png" draggable="true" alt="Plástico">
+        <img id="glass" src="/assets/glass.png" draggable="true" alt="Vidrio">
+    </div>
+    <div id="bins-container">
+        <div id="paper-bin" class="bin">Papel</div>
+        <div id="plastic-bin" class="bin">Plástico</div>
+        <div id="glass-bin" class="bin">Vidrio</div>
+    </div>
+</div>
+
+<script src="/dragDropGame.js"></script>
+
+<p id="message"></p>
+</body>
+</html>

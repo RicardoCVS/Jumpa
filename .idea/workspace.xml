@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="" />
+    <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/dragDropGame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +65,11 @@
 }</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="JumpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">

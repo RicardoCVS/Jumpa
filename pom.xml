@@ -20,8 +20,6 @@
 
 	<properties>
 		<java.version>17</java.version>
-		<thymeleaf.version>3.0.12.RELEASE</thymeleaf.version>
-		<thymeleaf-layout-dialect.version>2.5.2</thymeleaf-layout-dialect.version>
 	</properties>
 
 	<dependencies>
@@ -30,17 +28,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<!-- Thymeleaf + Thymeleaf Layout Dialect -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>nz.net.ultraq.thymeleaf</groupId>
-			<artifactId>thymeleaf-layout-dialect</artifactId>
-			<version>${thymeleaf-layout-dialect.version}</version>
 		</dependency>
 
 		<!-- Spring Boot Test -->

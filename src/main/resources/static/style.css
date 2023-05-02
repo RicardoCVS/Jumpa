@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#trash-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bins-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bin {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
