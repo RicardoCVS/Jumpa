@@ -7,7 +7,7 @@ import TeamB from './assets/teamb';
 import Gallery from './assets/gallery';
 import Nosotros from './assets/nosotros.js';
 import Footer from './assets/footer';
-import 'boxicons/css/boxicons.min.css';
+// import 'boxicons/css/boxicons.min.css';
 
 function App() {
   return (
@@ -15,9 +15,7 @@ function App() {
     <Title />
     <Inicio />
     <TeamB />
-    
     <Carrusel />
-    
     <Footer />
    
     </>

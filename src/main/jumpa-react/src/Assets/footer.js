@@ -1,5 +1,4 @@
 import "./footer.css";
-const imgLinkedin = process.env.PUBLIC_URL + "/img/linkedin-logo.png";
 function Footer() {
   return (
     <>
@@ -13,19 +12,19 @@ function Footer() {
             </p>
           </div>
           <div class="social-media">
-            <a href="./" class="social-media-icon">
-              <i class="bx bxl-linkedin"></i>
-              <span class="my-tooltip">Texto chico</span>
+            <a href="./" class="social-media-icon1">
+              <i class="linkedin1"></i>
+              <span class="my-tooltip"></span>
             </a>
-            <a href="./" class="social-media-icon">
-              <i class="bx bxl-linkedin"></i>
+            <a href="./" class="social-media-icon2">
+              <i class="linkedin2"></i>
             </a>
-            <a href="./" class="social-media-icon">
-              <i class="bx bxl-linkedin"></i>
+            <a href="./" class="social-media-icon3">
+              <i class="linkedin3"></i>
             </a>
 
-            <a href="./" class="social-media-icon">
-              <i class="bx bxl-linkedin"></i>
+            <a href="./" class="social-media-icon4">
+              <i className="linkedin4"></i>
             </a>
           </div>
         </div>

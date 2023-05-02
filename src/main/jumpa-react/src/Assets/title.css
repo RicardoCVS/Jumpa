@@ -51,8 +51,10 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     border-left: 2px solid;
     border-bottom: 1px solid;
     border-color: rgb(23, 243, 11);
+    z-index: 9999;
     
 }
+
 .menu-navegacion-active {
     transform: translate(0%);
   }
@@ -87,10 +89,10 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     top: 1px;
   }
 .titulo{
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: 15px;
 }
 .copy{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 45px;
 }
