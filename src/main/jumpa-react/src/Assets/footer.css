@@ -56,40 +56,25 @@ footer{
     background-color: #0a49c27d;
   }
 
-.social-media-icon1:hover{
-    background: white;
+.social-media-icon1:hover,.social-media-icon2:hover,.social-media-icon3:hover,.social-media-icon4:hover{
+    background: rgba(244, 244, 244, 0.829);
     color: #a5e292;
-    background-image:url(../../public/img/avatar_dani.png );
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
-    
 }
-
+.social-media-icon1:hover{
+    background-image:url(../../public/img/avatar_dani.png );
+}
 
 .social-media-icon2:hover{
-    background: white;
-    color: #a5e292;
     background-image:url(../../public/img/avatar_pau.png );
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
 }
 .social-media-icon3:hover{
-    background: white;
-    color: #a5e292;
     background-image:url(../../public/img/avatar_ricky.png );
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
 }
 .social-media-icon4:hover{
-    background: white;
-    color: #a5e292;
     background-image:url(../../public/img/avatar_jenny.png );
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
 }
 
 .social-media-icon i{
