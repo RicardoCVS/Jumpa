@@ -49,9 +49,9 @@
   .imgBack{
     grid-column: 1;
     grid-row: 1 /span 2;
-    margin: 5%;
+    margin: 10%;
     width: 90%;
-    height: 90%;
+    height: 80%;
     
   }
   .imgFront{

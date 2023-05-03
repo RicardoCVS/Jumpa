@@ -16,7 +16,7 @@ function Title() {
     setMenu(false);
   };
     return (
-<header class="header" id="ini" className="nes-pointer">
+<header class="header" id="ini">
   <img src={imgMenu} alt="" className={`menu ${menu ? "clicked" : ""}`} onClick={handleClick}/>
   <nav className={`menu-navegacion ${menu ? 'menu-navegacion-active' : ''}`} onBlur={handleBlur}  onMouseLeave={handleMouseLeave} tabIndex="0">
       <a href="#ini">Inicio</a>
