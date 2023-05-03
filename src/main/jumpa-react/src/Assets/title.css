@@ -40,7 +40,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     right: 0;
     width: 30vh;
     height: 100%;
-    background-image: linear-gradient(120deg, rgb(170, 254, 96) 0%, rgba(230, 255, 189, 0.486) 100%);
+    background-image: linear-gradient(100deg, rgba(206, 249, 97, 0.904) 0%, rgba(33, 177, 7, 0.822) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -48,12 +48,11 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     transition: transform 1s ease-in-out;
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+
     border-top: 1px solid;
     border-left: 2px solid;
     border-bottom: 1px solid;
-    border-color: rgb(23, 243, 11);
+    border-color: rgb(199, 241, 62);
     box-shadow: greenyellow;
     z-index: 9999;
 
@@ -70,7 +69,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 .menu-navegacion a{
     color: black;
     text-decoration: none;
-    min-width: 130px;
+    width: 100%;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
@@ -81,19 +80,15 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 5px;
-    border: none;
-    background:rgba(143, 213, 13, 0.114);
-    box-shadow: 0 5px #a0f224;
+    background:rgba(143, 213, 13, 0.084);
     transition: background-color 0.3s ease-in-out;
-    border-top-right-radius: 200px;
-    border-top-left-radius: 200px;
     text-shadow: 1px 1px 0 rgb(17, 132, 6);
     
 
 }
 .menu-navegacion a:hover {
-    box-shadow: 0 3px #cbfd27;
+    box-shadow: rgba(52, 93, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(100deg, rgb(206, 249, 97) 0%, rgb(33, 177, 7) 100%);
     top: 1px;
     text-shadow: 1px 1px 0 black;
   }

@@ -56,6 +56,7 @@
 ol, ul, dl {
   margin-top: 0;
   margin-bottom: 0rem;
+  list-style: none;
 }
 .carrousel .punto.activo{
   background: var(--color-amarillo-brillante);
