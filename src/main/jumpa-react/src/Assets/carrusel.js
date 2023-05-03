@@ -26,7 +26,7 @@ function lospuntos(){
 
 function Carrusel(){
     const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
-    const fundacio = process.env.PUBLIC_URL + '/img/fundacio.jpg';
+    const fundacio = process.env.PUBLIC_URL + '/img/fundacio.png';
     const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
     const idea = process.env.PUBLIC_URL + '/img/ideas.jpg';
     const tec = process.env.PUBLIC_URL + '/img/tecnologia.jpg';
