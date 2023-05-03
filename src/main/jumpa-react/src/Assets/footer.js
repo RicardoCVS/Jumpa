@@ -12,10 +12,10 @@ function Footer() {
             </p>
           </div>
           <div class="social-media">
-            <a href="https://www.linkedin.com/in/danielhernandezmontero/"class="social-media-icon1" target="_blank">
+            <div class="linkdn"><a href="https://www.linkedin.com/in/danielhernandezmontero/"class="social-media-icon1" target="_blank">
               <i class="linkedin1"></i>
               <span class="my-tooltip"></span>
-            </a>
+            </a></div>
             <a href="https://www.linkedin.com/in/pau-espin%C3%A1s-romero/" class="social-media-icon2" target="_blank">
               <i class="linkedin2"></i>
             </a>
