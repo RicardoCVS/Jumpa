@@ -42,7 +42,7 @@ footer{
     color: rgb(0, 0, 0);
     background-image:url(../../public/img/linkedin.png );
     background-repeat: no-repeat;
-    background-size:initial;
+    background-size:cover;
     background-position:center;
     background-color: #0a66c2;
         
