@@ -69,12 +69,18 @@
     grid-column: 1/span 3;
     grid-row: 1;
     align-self: end;
+    color: var(--color-verde-claro);
+    font-weight: 500;
+    font-size: 30px;
   }
   .tituloBack{
     margin: 5%;
     font-size: 25px;
     grid-column: 2;
     grid-row: 1;
+    color: black;
+    font-weight: 500;
+    font-size: 35px;
   }
   .texto{
     text-align:left;
