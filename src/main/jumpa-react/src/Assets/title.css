@@ -16,6 +16,9 @@ header{
     align-items: center;
     flex-direction: column;
     color: white;
+    text-shadow: 1px 1px 0 black;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #ffffff7b, 0 0 10px #ffffffb9, 0 0 15px #ffffff8b, 0 0 20px #4aff18, 0 0 30px #9bff18c2, 0 0 40px #97ff18ad, 0 0 55px #4aff188a, 0 0 75px #4aff1893;
 }
 
 
@@ -29,6 +32,7 @@ height: 40px;
 cursor: pointer;
 border-radius: 10px;
 box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
 }
 .menu-navegacion{
     position: fixed;
@@ -36,7 +40,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     right: 0;
     width: 30vh;
     height: 100%;
-    background-image: linear-gradient(120deg, var( --color-amarillo-brillante) 0%, var(--color-verde-claro) 100%);
+    background-image: linear-gradient(100deg, rgba(206, 249, 97, 0.904) 0%, rgba(33, 177, 7, 0.822) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,7 +48,16 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     transition: transform 1s ease-in-out;
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+    border-top: 1px solid;
+    border-left: 2px solid;
+    border-bottom: 1px solid;
+    border-color: rgb(199, 241, 62);
+    box-shadow: greenyellow;
+    z-index: 9999;
+
 }
+
 .menu-navegacion-active {
     transform: translate(0%);
   }
@@ -56,11 +69,28 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 .menu-navegacion a{
     color: black;
     text-decoration: none;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    background:rgba(143, 213, 13, 0.084);
+    transition: background-color 0.3s ease-in-out;
+    text-shadow: 1px 1px 0 rgb(17, 132, 6);
+    
 
 }
 .menu-navegacion a:hover {
-    box-shadow: 0 3px var(--color-verde-claro);
+    box-shadow: rgba(52, 93, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-image: linear-gradient(100deg, rgb(206, 249, 97) 0%, rgb(33, 177, 7) 100%);
     top: 1px;
+    text-shadow: 1px 1px 0 black;
   }
 .titulo{
     font-size: 60px;
@@ -68,5 +98,5 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 .copy{
     font-weight: 300;
-    font-size: 25px;
+    font-size: 30px;
 }

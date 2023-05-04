@@ -25,10 +25,10 @@ function lospuntos(){
  
 
 function Carrusel(){
-    const rutaImagen = process.env.PUBLIC_URL + '/img/samuel.jpg';
-    const fundacio = process.env.PUBLIC_URL + '/img/fundacio.jpg';
-    const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball.png';
-    const idea = process.env.PUBLIC_URL + '/img/ideas.jpg';
+    const fundacio = process.env.PUBLIC_URL + '/img/fundacio.png';
+    const rutaImagen2 = process.env.PUBLIC_URL + '/img/ball2.png';
+    const idea = process.env.PUBLIC_URL + '/img/ideas.png';
+    const tec = process.env.PUBLIC_URL + '/img/coding.png';
     const objetivo = process.env.PUBLIC_URL + '/img/objetivo.png';
     const jumpa = process.env.PUBLIC_URL + '/img/jumpa.png';
     
@@ -41,7 +41,7 @@ return (
                 <Card
                     titleFront="¿Como surgió JUMPA?"
                     imagenBack={jumpa}
-                    titleBack="El origen"
+                    titleBack="El Origen"
                     textBack="Jumpa nace apartir de un gusto en comun, los videojuegos.<br>
                     Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
                     y a la vez educativo.<br> Con esta herramienta podemos hacer que los niños aprendan
@@ -65,18 +65,16 @@ return (
             <div className = "card3">
                 <Boton />
             </div>
-            <div className = "card4">
+            <div className = "card6">
                 <Card
                     titleFront="¿Con que se ha hecho?"
-                    imagenBack={idea}
+                    imagenBack={tec}
                     titleBack="Tecnologías"
                     textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
                     html y css, javascript.<br> Para organizarnos hemos usado Trello y la metodología de SCRUM, para 
                     organizarnos y realizar diversos Sprints de los objetivos/tareas que nos marcabamos.
-                    
                     <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habeis visto
                     hasta ahora.
-
                     "
                     imagenfront={rutaImagen2}
                 />

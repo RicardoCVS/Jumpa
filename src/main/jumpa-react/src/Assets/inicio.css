@@ -2,14 +2,7 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-  }
-body{
-    /* background-image: url('../../public/img/teamb.png'); */
-    /* background-size:contain;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
-    font-family: 'Open Sans', 'sans-serif';  
+    font-family: 'Open Sans';
   }
 
   .social{
@@ -55,22 +48,14 @@ body{
     background-color: #fff;
   
     }
-  @media screen and (max-width: 768px) {
-    #messagelist1 {
-      /* estilos para pantallas más pequeñas */
-      grid-column: 1 /span 4;
-      justify-self: center;
-      margin: 8px auto;
-    }
-  }
-  
-  .imagen1{
+    
+    .imagen1{
     position: relative;
     top:10px;
     grid-column: 1;
     grid-row: 1;
     justify-self: right;
-    width: 20vh;
+    width: 30vh;
     height: auto;
     /* transform: scaleX(-1); */
   
@@ -92,15 +77,15 @@ body{
     padding: 1rem 1.5rem;
     margin: 8px;
     margin-bottom: 30px;
-    background-color: #fff
-  }
+    background-color: #fff;
+      }
   .imagen2{
     position: relative;
     top:10px;
     grid-column: 4;
     grid-row: 2;
     justify-self: left;
-    width: 20vh;
+    width: 30vh;
     height: auto;
     transform: scaleX(-1);
   
@@ -122,6 +107,7 @@ body{
     margin: 8px;
     margin-bottom: 30px;
     background-color: #fff
+   
   }
   
   .imagen3{
@@ -130,7 +116,7 @@ body{
     grid-column: 1;
     grid-row: 3;
     justify-self: right;
-    width: 20vh;
+    width: 30vh;
     height: auto;
     /* transform: scaleX(-1); */ 
   }
@@ -160,7 +146,7 @@ body{
     grid-column: 4;
     grid-row: 4;
     justify-self: left;
-    width: 20vh;
+    width: 30vh;
     height: auto;
     transform: scaleX(-1);
   
@@ -168,8 +154,13 @@ body{
   #messagelist1, #messagelist2, #messagelist3, #messagelist4 {
     
       background-color: rgba(0,0,0,0);
+      font-size: 20px;
     
     
   }
   
   
+@media (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm){
+.nes-balloon {
+    border-image-repeat: stretch;
+}}
