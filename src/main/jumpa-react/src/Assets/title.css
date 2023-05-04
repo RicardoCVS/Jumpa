@@ -15,9 +15,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
     text-shadow: 1px 1px 0 black;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0 0 5px #ffffff7b, 0 0 10px #ffffffb9, 0 0 15px #ffffff8b, 0 0 20px #4aff18, 0 0 30px #9bff18c2, 0 0 40px #97ff18ad, 0 0 55px #4aff188a, 0 0 75px #4aff1893;
 }
 
@@ -89,6 +88,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 .menu-navegacion a:hover {
     box-shadow: rgba(52, 93, 50, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     background-image: linear-gradient(100deg, rgb(206, 249, 97) 0%, rgb(33, 177, 7) 100%);
+    height: 4%;
     top: 1px;
     text-shadow: 1px 1px 0 black;
   }

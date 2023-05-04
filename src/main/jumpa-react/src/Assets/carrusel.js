@@ -44,7 +44,7 @@ return (
                     titleBack="El Origen"
                     textBack="Jumpa nace apartir de un gusto en comun, los videojuegos.<br>
                     Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
-                    y a la vez educativo.<br> Con esta herramienta podemos hacer que los niños aprendan
+                    y a la vez educativo.<br><br> Con esta herramienta podemos hacer que los niños aprendan
                     buenas costumbres hacía el medio ambiente."
                     imagenfront={rutaImagen2}
                 />
