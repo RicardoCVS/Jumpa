@@ -9,6 +9,7 @@
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 .sidebar {
@@ -29,6 +30,7 @@
 a{
   color: black;
   text-decoration-color: none;
+  
 }
 
 a:hover {
@@ -41,10 +43,12 @@ a:hover {
   margin-bottom: 5px;
   list-style: none;
   font-size: 14px;
-}
+  text-shadow: 0.1px 0.1px 0 #ffffff;
+    }
 
 .content {
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  
 }
