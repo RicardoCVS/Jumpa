@@ -1,31 +1,32 @@
 package com.jumpa.Jumpa.controller;
 
-import com.jumpa.Jumpa.model.Juego;
-import com.jumpa.Jumpa.service.JuegoService;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
-@RestController
+@Controller
 @RequestMapping("/api/juegos")
 public class JuegoController {
 
-    @Autowired
-    private JuegoService juegoService;
-
-    @GetMapping("/{id}")
-    public ResponseEntity<Juego> getJuegoById(@PathVariable Long id) {
-        System.out.println("Petición recibida para juego con ID: " + id);
-        Juego juego = juegoService.getJuegoById(id);
-        if (juego == null) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(juego);
-    }
-
     @GetMapping
+<<<<<<< HEAD
     public ResponseEntity<String> getJuego() {
         String mensaje = "¡Bienvenido a Jumpa";
         return ResponseEntity.ok(mensaje);
+=======
+    public ResponseEntity<Resource> showGamePage() {
+        Resource resource = new ClassPathResource("static/game.html");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.TEXT_HTML);
+        return new ResponseEntity<>(resource, headers, HttpStatus.OK);
+>>>>>>> 164d7e579a15637969880487686aa434dc4ec7f4
     }
 }
+
+
