@@ -15,17 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class JuegoController {
 
     @GetMapping
-<<<<<<< HEAD
-    public ResponseEntity<String> getJuego() {
-        String mensaje = "¡Bienvenido a Jumpa";
-        return ResponseEntity.ok(mensaje);
-=======
     public ResponseEntity<Resource> showGamePage() {
         Resource resource = new ClassPathResource("static/game.html");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);
->>>>>>> 164d7e579a15637969880487686aa434dc4ec7f4
     }
 }
 
