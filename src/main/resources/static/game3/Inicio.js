@@ -14,7 +14,7 @@ console.log(nombre,index);
   // Crear un nuevo elemento "img"
   let miImagen = document.createElement("img");
   // Establecer el atributo "src" del elemento "img" a la ruta de la imagen que deseas agregar
-  miImagen.src = "./imagenes/" + nombre + ".jpg";
+  miImagen.src = "/game3/imagenes/" + nombre + ".jpg";
   miImagen.classList.add("img-" + (index + 1));
   // Agregar el elemento "img" al final del elemento "miDiv" utilizando la función "appendChild"
   divImg.appendChild(miImagen);

@@ -12,9 +12,7 @@ h1{
 }
 *{
     background-image: url(/game3/fondos.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+        background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

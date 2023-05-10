@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de los Grifos</title>
+    <link rel="stylesheet" href="/game4/Juego2.css">
+</head>
+<body>
+    <h1> <div id="number"></div>Apaga los Grifos</h1>
+    <div class="Grifos Abierto" id="Abiertos" >
+        <img src="/game4/Abierto1.gif" id="Abierto1" onclick="encenderApagar()" style="display:none;" >        
+        <img src="/game4/Abierto2.gif" id="Abierto2" onclick="encenderApagar1()"  style="display:none ;">
+        <img src="/game4/Abierto3.gif" id="Abierto3" onclick="encenderApagar2()"  style="display:none;">
+        <img src="/game4/Abierto4.gif" id="Abierto4" onclick="encenderApagar3()"  style="display:none;">
+        <img src="/game4/Abierto5.gif" id="Abierto5" onclick="encenderApagar4()" style="display:none;">
+    </div>
+    <div class="GrifosCerrados">
+        <img src="/game4/Cerrado1.png"  id="Cerrado1" style="display:none;">
+        <img src="/game4/Cerrado2.png" id="Cerrado2" style="display: none;">
+        <img src="/game4/Cerrado3.png" id="Cerrado3" style="display: none;">
+        <img src="/game4/Cerrado4.png" id="Cerrado4" style="display: none;">
+        <img src="/game4/Cerrado5.png" id="Cerrado5" style="display: none;">
+    </div>
+    <script src =" https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js "> </script>
+    <script class="text/javascrip" src="/game4/Juego2.js"></script>
+</body>
+</html>
