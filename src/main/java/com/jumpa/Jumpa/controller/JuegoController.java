@@ -16,15 +16,7 @@ public class JuegoController {
 
     @GetMapping("/juegos")
     public ResponseEntity<Resource> showGamePage() {
-        Resource resource = new ClassPathResource("static/game.html");
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.TEXT_HTML);
-        return new ResponseEntity<>(resource, headers, HttpStatus.OK);
-    }
-
-    @GetMapping("/juegos1")
-    public ResponseEntity<Resource> showGamePage1() {
-        Resource resource = new ClassPathResource("static/game1.html");
+        Resource resource = new ClassPathResource("static/game1/index.html");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);
@@ -32,7 +24,7 @@ public class JuegoController {
 
     @GetMapping("/juegos2")
     public ResponseEntity<Resource> showGamePage2() {
-        Resource resource = new ClassPathResource("static/game2.html");
+        Resource resource = new ClassPathResource("static/game2/index.html");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);
@@ -40,7 +32,21 @@ public class JuegoController {
 
     @GetMapping("/juegos3")
     public ResponseEntity<Resource> showGamePage3() {
-        Resource resource = new ClassPathResource("static/game3.html");
+        Resource resource = new ClassPathResource("static/game3/Juego.html");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.TEXT_HTML);
+        return new ResponseEntity<>(resource, headers, HttpStatus.OK);
+    }
+    @GetMapping("/juegos4")
+    public ResponseEntity<Resource> showGamePage4() {
+        Resource resource = new ClassPathResource("static/game4/game4.html");
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.TEXT_HTML);
+        return new ResponseEntity<>(resource, headers, HttpStatus.OK);
+    }
+    @GetMapping("/juegos5")
+    public ResponseEntity<Resource> showGamePage5() {
+        Resource resource = new ClassPathResource("static/game5/game5.html");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);

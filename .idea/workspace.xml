@@ -5,11 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/appp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/sounds/click.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/sounds/lose.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/sounds/right.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game1/sounds/win.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/boton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/bolsa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/cigarro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/cinta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/fondo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/fondo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/lago.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/mesa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/papelera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/pila.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/img/pila2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game4/game4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/game5/game5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jumpa/Jumpa/controller/JuegoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/cristal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/fondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/papel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/plastic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/plastico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/dragDropGame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/game1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/game2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/game3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +79,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mati/Desktop/Java/Jumpa/src/main/jumpa-react/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;04d7c29b30a06a99585545bcceb38130&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mati/Desktop/Java/Jumpa/src/main/resources/static/game2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "04d7c29b30a06a99585545bcceb38130",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static\game2" />
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static\game1" />
       <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\jumpa-react\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static\game3" />
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static\game2" />
+      <recent name="C:\Users\mati\Desktop\Java\Jumpa\src\main\resources\static\game1" />
       <recent name="C:\Users\vicar\OneDrive\Documentos\GitHub\Jumpa\src\main\resources\templates" />
     </key>
   </component>
