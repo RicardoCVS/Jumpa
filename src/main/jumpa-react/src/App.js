@@ -14,8 +14,8 @@ function App() {
   return (
     <>
     <Title />
-    <Inicio />
     <TeamB />
+    <Inicio />
     <Carrusel />
     <Footer /> 
     </>
