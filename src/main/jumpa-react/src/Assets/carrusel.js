@@ -1,6 +1,10 @@
 import './carrusel.css';
 import Card from './Tarjeta.js';
 import Boton from './boton.js';
+import Boton2 from './boton2.js';
+import Boton3 from './boton3.js';
+import Boton4 from './boton4.js';
+import Boton5 from './boton5.js';
 function lospuntos(){
   const content    = document.querySelector('.content')
   const punto     = document.querySelectorAll('.punto')
@@ -64,10 +68,10 @@ return (
             </div>
             <div className = "card3">
                 <Boton />
-                <Boton />
-                <Boton />
-                <Boton />
-                <Boton />
+                <Boton2 />
+                <Boton3 />
+                <Boton4 />
+                <Boton5 />
             </div>
             <div className = "card6">
                 <Card

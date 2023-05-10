@@ -1,0 +1,78 @@
+#number {
+    font-size: 50px;
+    color:black;
+    text-align: center;
+}
+#Animo{
+    height: 50px;
+    height: 50px;
+}
+h1{
+    text-align: center;
+}
+*{
+    background-image: url(/game3/fondos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+div .img-1{
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    position: relative;
+}
+div .img-2{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    position: relative;
+}
+div .img-3{
+    width: 120px;
+    height: 120px;
+    top: 300px;
+    position: relative;
+}
+div .img-4{
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    position: relative;
+}
+div .img-5{
+    width: 50px; 
+    height: 70px;
+    top: 300px;
+    position: relative;
+}
+div .img-6{
+    width: 60px;
+    height: 70px;
+    top: 300px;
+    position: relative;
+}
+#Amarillo{
+    height: 130px;
+    width: 100px;
+    top:200px;
+    left:700px;
+    position: relative;
+}
+#Azul{
+    height: 130px;
+    width: 100px;
+    top:200px;
+    left:700px;
+    position: relative;
+}
+#Verde{
+    height: 130px;
+    width: 120px;
+    top:200px;
+    left:700px;
+    position: relative;
+}
