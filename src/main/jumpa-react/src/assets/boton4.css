@@ -9,6 +9,7 @@
 .button4 {
   width: 100px;
   height: 100px;
+  margin-right: 10px;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
   text-transform: uppercase;
