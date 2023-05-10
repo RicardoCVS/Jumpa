@@ -8,7 +8,7 @@
 }
 
 .button {
-  width: 300px;
+  width: 100px;
   height: 100px;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
@@ -31,7 +31,7 @@
 button::before {
 content: '';
   border-radius: 1000px;
-  min-width: calc(300px + 12px);
+  min-width: calc(100px + 12px);
   min-height: calc(100px + 12px);
   border: 10px solid var(--color-amarillo-verdoso);
   box-shadow: 0 0 60px var(--color-amarillo-brillante);
@@ -78,8 +78,8 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     opacity: 0;
   }
 }
