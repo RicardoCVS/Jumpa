@@ -1,6 +1,6 @@
+com\jumpa\Jumpa\service\JuegoService.class
 com\jumpa\Jumpa\JumpaApplication.class
 com\jumpa\Jumpa\controller\JuegoController.class
 com\jumpa\Jumpa\model\Juego.class
-com\jumpa\Jumpa\repository\JuegoRepository.class
-com\jumpa\Jumpa\service\JuegoService.class
 com\jumpa\Jumpa\controller\JumpaController.class
+com\jumpa\Jumpa\repository\JuegoRepository.class
