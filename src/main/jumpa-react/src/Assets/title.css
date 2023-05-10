@@ -15,9 +15,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
     text-shadow: 1px 1px 0 black;
-    color: #FFFFFF;
+    color: #ffffff;
     text-shadow: 0 0 5px #ffffff7b, 0 0 10px #ffffffb9, 0 0 15px #ffffff8b, 0 0 20px #4aff18, 0 0 30px #9bff18c2, 0 0 40px #97ff18ad, 0 0 55px #4aff188a, 0 0 75px #4aff1893;
 }
 

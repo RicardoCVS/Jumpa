@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Title from './assets/title.js';
 import Inicio from './assets/inicio.js';
+
 import Carrusel from './assets/carrusel.js';
 import TeamB from './assets/teamb';
 import Gallery from './assets/gallery';
@@ -13,11 +14,10 @@ function App() {
   return (
     <>
     <Title />
-    <Inicio />
     <TeamB />
+    <Inicio />
     <Carrusel />
-    <Footer />
-   
+    <Footer /> 
     </>
   );
 }

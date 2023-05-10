@@ -42,10 +42,10 @@ return (
                     titleFront="¿Como surgió JUMPA?"
                     imagenBack={jumpa}
                     titleBack="El Origen"
-                    textBack="Jumpa nace apartir de un gusto en comun, los videojuegos.<br>
+                    textBack="Jumpa nace a partir de un gusto en comun, los videojuegos.<br>
                     Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
-                    y a la vez educativo.<br> Con esta herramienta podemos hacer que los niños aprendan
-                    buenas costumbres hacía el medio ambiente."
+                    y a la vez educativo.<br><br> Con esta herramienta podemos hacer que los niños aprendan
+                    buenas costumbres hacia el medio ambiente."
                     imagenfront={rutaImagen2}
                 />
             </div>
@@ -54,10 +54,10 @@ return (
                     titleFront="¿Cuál es nuestro objetivo?"
                     imagenBack={objetivo}
                     titleBack="Concienciar"
-                    textBack="Con este proyecto, queremos hacer más divertida y amena la coincienciación
+                    textBack="Con este proyecto, queremos hacer más divertida y amena la concienciación
                     por el medio ambiente.<br><br> 
                     ¿Como logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
-                    que tienes que hace para ganar más puntos.
+                    que tienes que hacer para ganar más puntos.
                     "
                     imagenfront={rutaImagen2}
                 />
@@ -71,9 +71,8 @@ return (
                     imagenBack={tec}
                     titleBack="Tecnologías"
                     textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
-                    html y css, javascript.<br> Para organizarnos hemos usado Trello y la metodología de SCRUM, para 
-                    organizarnos y realizar diversos Sprints de los objetivos/tareas que nos marcabamos.
-                    <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habeis visto
+                    html, css y javascript.<br><br> Para organizarnos hemos usado Trello, la metodología de SCRUM y CANVAN.
+                    <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habéis visto
                     hasta ahora.
                     "
                     imagenfront={rutaImagen2}
@@ -84,10 +83,13 @@ return (
                     titleFront="¿El futuro?"
                     imagenBack={idea}
                     titleBack="En el tintero"
-                    textBack="Que ideas nos gustaría añadir en un futuro?<br><br>
-                    Por supuesto más minijuegos (aquí tenemos que añadir minijuegos).<br><br>
-                    Adaptar el juego para que se pueda disfrutar desde el móvil.<br><br>
-                    Cambiar todo el diseño a pixelart.
+                    textBack="
+                    <ul>
+                        <li>·Por supuesto añadiremos más minijuegos</li><br>
+                        <li>·Adaptar el juego para que se pueda disfrutar desde el móvil.</li><br>
+                        <li>·Cambiar todo el diseño a un estilo más pixelart.</li><br>
+                        <li>·Añadir jugadores, con sus respectivas puntuaciones.</li><br>
+                    </ul>
                     "
                     imagenfront={rutaImagen2}
                 />

@@ -20,8 +20,8 @@ function Title() {
   <img src={imgMenu} alt="" className={`menu ${menu ? "clicked" : ""}`} onClick={handleClick}/>
   <nav className={`menu-navegacion ${menu ? 'menu-navegacion-active' : ''}`} onBlur={handleBlur}  onMouseLeave={handleMouseLeave} tabIndex="0">
       <a href="#ini">Inicio</a>
-      <a href="#servicio">Servicio</a>
       <a href="#nosotros">Nosotros</a>
+      <a href="#servicio">Servicio</a>
       <a href="#diapositivas">Diapositivas</a>
       <a href="#contacto">Redes</a>
   </nav>

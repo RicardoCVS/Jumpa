@@ -83,6 +83,7 @@
     font-size: 35px;
   }
   .texto{
+    font-size: auto!important;
     text-align:left;
     margin: 5%;
     grid-column: 2;
