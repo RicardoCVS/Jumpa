@@ -24,6 +24,14 @@
     border-style: solid;
     width: 50%;
   }
+  h2{
+    text-align: center;
+    margin-left: 29%;
+    font-size: 2em;
+    margin-top: 2%;
+    font-family:'Times New Roman', Times, serif;
+    width: 50%;
+  }
   #fabrica{
    grid-column: 1;
    grid-row: 1;

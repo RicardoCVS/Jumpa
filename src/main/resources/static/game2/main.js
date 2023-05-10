@@ -1,13 +1,14 @@
 const imagen = document.getElementById("objeto");
 const imagenB = document.getElementById("basura")
-const basura = ["/img/bolsa.png","/img/cigarro.png","/img/pila2.png"];
+const basura = ["/game2/img/bolsa.png","/game2/img/cigarro.png","/game2/img/pila2.png"];
 const elemento = document.getElementById('papelera');
 const lago = document.getElementById('lago');
 let segundo = "4";
 let num = 0;
 let verdad = false;
+let result = 0;
 var boton = document.getElementById("boton");
-
+var resultado = document.getElementById("resultado");
 function objeto() {
     
     imagenB.src = basura[num];
@@ -52,11 +53,15 @@ function comprobarAlineacion() {
         imagenB.style.visibility = "hidden";    
         imagen.style.transform = 'none'
         verdad = true;
+        result += 10;
+        resultado.textContent ="Puntos: "+ result;
         
     } else {
         imagen.style.transform = 'none'
-        
         verdad = false;
+        result -= 10;
+        resultado.textContent = "Puntos: "+result;
+        
     }
   }
   function movimiento(){
@@ -69,6 +74,10 @@ function comprobarAlineacion() {
   imagen.addEventListener('animationiteration', () => {
         imagenB.style.visibility = 'visible';
         objeto();
+        if(verdad == false){
+          result -= 2;
+          resultado.textContent = "Puntos: "+result;
+        }
   });
   movimiento();
 
