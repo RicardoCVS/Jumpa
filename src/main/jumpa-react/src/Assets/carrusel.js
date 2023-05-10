@@ -64,6 +64,10 @@ return (
             </div>
             <div className = "card3">
                 <Boton />
+                <Boton />
+                <Boton />
+                <Boton />
+                <Boton />
             </div>
             <div className = "card6">
                 <Card
