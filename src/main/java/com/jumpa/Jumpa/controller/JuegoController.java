@@ -39,7 +39,7 @@ public class JuegoController {
     }
     @GetMapping("/juegos4")
     public ResponseEntity<Resource> showGamePage4() {
-        Resource resource = new ClassPathResource("static/game4/game4.html");
+        Resource resource = new ClassPathResource("static/game4/Juego2.html");
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.TEXT_HTML);
         return new ResponseEntity<>(resource, headers, HttpStatus.OK);

@@ -1,0 +1,54 @@
+#number{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+body{
+    background-image: url('/game4/Fondo1.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#Abierto1{
+    height: 130px;
+    width: 130px;
+    top: 230px;
+    position:absolute;
+    left: 900px;
+}
+#Abierto2{
+    height: 130px;
+    width: 130px;
+    top: 230px;
+    position:absolute;
+    left: 700px;
+}
+#Abierto3{
+    height: 130px;
+    width: 130px;
+    top: 230px;
+    position:absolute;
+    left: 500px;
+}
+#Abierto4{
+    height: 130px;
+    width: 130px;
+    position:absolute;
+    top: 230px;
+    left: 300px;
+}
+#Abierto5{
+    height: 140px;
+    width: 140px;
+    position:absolute;
+    top: 230px;
+    left: 100px;  
+}
+
+
