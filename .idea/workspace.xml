@@ -7,11 +7,8 @@
     <list default="true" id="ef2f13ea-f804-4944-acd9-a83402057524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/jumpa-react/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
