@@ -51,6 +51,7 @@ button{
     background-color: #4286f4;
     border: 1px solid white;
     border-radius: 8px;
+    cursor: pointer;
 }
 footer{
     cursor: not-allowed;
