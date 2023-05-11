@@ -45,7 +45,7 @@ content: '';
 }
 
 .button:hover, .button:focus {
-  color: var(--color-amarillo-ultra);
+  color: rgb(255, 0, 0);
   transform: translateY(-6px);
 }
 
@@ -55,10 +55,10 @@ button:hover::before, button:focus::before {
 
 button::after {
   content: '';
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   border-radius: 100%;
-  border: 6px solid var( --color-amarillo-brillante);
+  border: 6px solid var(--color-amarillo-brillante);
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -79,8 +79,8 @@ button:hover::after, button:focus::after {
     opacity: 1;
   }
   100% {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     opacity: 0;
   }
 }

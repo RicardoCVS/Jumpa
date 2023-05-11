@@ -51,6 +51,7 @@ button{
     background-color: #4286f4;
     border: 1px solid white;
     border-radius: 8px;
+    cursor: pointer;
 }
 footer{
     cursor: not-allowed;
@@ -66,4 +67,30 @@ footer{
 img{
     width: 80%;
     
+}
+#flecha{
+    width: 30px;
+    
+}
+#q{
+    width: 60px;
+}
+.section3{
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+
+}
+.section4{
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: white;
 }
