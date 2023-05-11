@@ -8,7 +8,8 @@ function Boton4() {
 
   return (
     <div class="wrap" onClick={handleClick}>
-      <button class="button4">JUMPA</button>
+      <button class="button4">JUEGO 
+      4</button>
     </div>
   );
 }
