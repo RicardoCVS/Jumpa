@@ -46,10 +46,10 @@ return (
                     titleFront="¿Como surgió JUMPA?"
                     imagenBack={jumpa}
                     titleBack="El Origen"
-                    textBack="Jumpa nace a partir de un gusto en comun, los videojuegos.<br>
-                    Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
-                    y a la vez educativo.<br><br> Con esta herramienta podemos hacer que los niños aprendan
-                    buenas costumbres hacia el medio ambiente."
+                    textBack="Jumpa nace a partir de un gusto en común, los videojuegos.<br>
+                    Mediante los videojuegos nos propusimos crear un idea innovadora,divertida
+                    y a la vez educativa.<br><br> Con esta herramienta podemos hacer que los niños aprendan
+                    buenas costumbres de cara al medio ambiente."
                     imagenfront={rutaImagen2}
                 />
             </div>
@@ -60,7 +60,7 @@ return (
                     titleBack="Concienciar"
                     textBack="Con este proyecto, queremos hacer más divertida y amena la concienciación
                     por el medio ambiente.<br><br> 
-                    ¿Como logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
+                    ¿Cómo logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
                     que tienes que hacer para ganar más puntos.
                     "
                     imagenfront={rutaImagen2}
@@ -79,7 +79,7 @@ return (
                     imagenBack={tec}
                     titleBack="Tecnologías"
                     textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
-                    html, css y javascript.<br><br> Para organizarnos hemos usado Trello, la metodología de SCRUM y CANVAN.
+                    html, css y javascript.<br><br> Para organizarnos hemos usado Trello, la metodología de SCRUM y KANBAN.
                     <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habéis visto
                     hasta ahora.
                     "

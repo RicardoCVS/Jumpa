@@ -11,10 +11,10 @@ return (
             <div class="checklist-servicio">
               <div class="service">
                 <h3 class="n-service">
-                  <span class="number">1</span>Coincienciar
+                  <span class="number">1</span>Concienciar
                 </h3>
                 <p>
-                  Queremos coincienciar a las nuevas generaciones con buenos hábitos
+                  Queremos concienciar a las nuevas generaciones con buenos hábitos
                 </p>
               </div>
               <div class="service">
