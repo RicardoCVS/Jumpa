@@ -13,7 +13,7 @@ function Inicio() {
         {/* Dani */}
         <section id="messagelist1" class="message-list">
           <div class="nes-balloon from-left">
-            <p>Hola! Mi nombre es Daniel Hernandez, me considero una persona creativa con habilidad para trabajar en equipo y<br></br> una excelente capacidad de comunicacón.</p>
+            <p>Hola! Mi nombre es Daniel Hernández, destaco por ser persona creativa con habilidad para trabajar en equipo y una excelente capacidad de comunicacón.</p>
           </div>
         </section>
         <img className="imagen1" src={imgDani} />
@@ -22,7 +22,7 @@ function Inicio() {
 
         <section id="messagelist2" class="message-list">
           <div class="nes-balloon from-right">
-            <p>Hola! Mi nombre es Pau Espinas, soy una persona tranquila que le gusta planificar. Esto me ha ayudado a aportar un poco de calma y orden al proyecto.</p>
+            <p>Hola! Mi nombre es Pau Espinás, soy una persona tranquila que le gusta planificar. Esto me ha ayudado a aportar un poco de calma y orden al proyecto.</p>
           </div>
         </section>
         <img className="imagen2" src={imgPau} />
@@ -30,7 +30,7 @@ function Inicio() {
         {/* Ricardo */}
         <section id="messagelist3" class="message-list">
           <div class="nes-balloon from-left">
-            <p>Hola! Mi nombre es Ricardo Castro y me considero organizado y con capacidad comunicativa. </p>
+            <p>Hola! Mi nombre es Ricardo Castro, soy organizado y con una gran capacidad comunicativa. </p>
           </div>
         </section>
         <img className="imagen3" src={imgRicky} />

@@ -17,7 +17,7 @@
     align-self: center;
     width: auto;
     border-radius: 30px;
-    margin-top: 300px;
+    margin: 300px 20px 20px 20px;
     background: var(--color-fondo-sombra);
     border: 1px;
     /* grid-gap: 1px; */

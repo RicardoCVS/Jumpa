@@ -47,8 +47,8 @@ return (
                     imagenBack={jumpa}
                     titleBack="El Origen"
                     textBack="Jumpa nace a partir de un gusto en común, los videojuegos.<br>
-                    Mediante los videojuegos nos propusimos crear un idea innovadora,divertida
-                    y a la vez educativa.<br><br> Con esta herramienta podemos hacer que los niños aprendan
+                    Mediante los videojuegos nos propusimos crear un idea innovadora, divertida
+                    y a la vez educativa.<br><br> Con esta herramienta podemos hacer que los niños y niñas aprendan
                     buenas costumbres de cara al medio ambiente."
                     imagenfront={rutaImagen2}
                 />
@@ -60,8 +60,7 @@ return (
                     titleBack="Concienciar"
                     textBack="Con este proyecto, queremos hacer más divertida y amena la concienciación
                     por el medio ambiente.<br><br> 
-                    ¿Cómo logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
-                    que tienes que hacer para ganar más puntos.
+                    ¿Cómo logramos esto? Mediante minijuegos en los cuales se exponen acciones cotidianas acerca del cuidao del medio ambiente.
                     "
                     imagenfront={rutaImagen2}
                 />
@@ -78,8 +77,8 @@ return (
                     titleFront="¿Con que se ha hecho?"
                     imagenBack={tec}
                     titleBack="Tecnologías"
-                    textBack="Para realizar este proyecto, hemos utilizado java, spring-boot, react con su respectivo
-                    html, css y javascript.<br><br> Para organizarnos hemos usado Trello, la metodología de SCRUM y KANBAN.
+                    textBack="Para realizar este proyecto hemos utilizado Java, Spring-boot, React con su respectivo
+                    HTML, CSS y Javascript.<br><br> Para organizarnos hemos usado Trello, la metodología de SCRUM y KANBAN.
                     <br><br>Con todas estas herramientas hemos logrado crear esta misma diapositiva y todo lo que habéis visto
                     hasta ahora.
                     "
@@ -93,10 +92,10 @@ return (
                     titleBack="En el tintero"
                     textBack="
                     <ul>
-                        <li>·Por supuesto añadiremos más minijuegos</li><br>
-                        <li>·Adaptar el juego para que se pueda disfrutar desde el móvil.</li><br>
-                        <li>·Cambiar todo el diseño a un estilo más pixelart.</li><br>
-                        <li>·Añadir jugadores, con sus respectivas puntuaciones.</li><br>
+                        <li>·Añadir más minijuegos.</li><br>
+                        <li>·Hacer compatible con dispositivos móviles.</li><br>
+                        <li>·Cambiar el diseño a pixelart.</li><br>
+                        <li>·Añadir jugadores y jugadoras, con sus respectivas puntuaciones.</li><br>
                     </ul>
                     "
                     imagenfront={rutaImagen2}

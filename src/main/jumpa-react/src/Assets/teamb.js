@@ -5,7 +5,7 @@ return (
     <>
       <main>
         <section class="services contenedor" id="servicio">
-          <h2 class="subtitulo">Nuestro Servicio</h2>
+          <h2 class="subtitulo">Nuestra Misión</h2>
           <div class="contenedor-servicio">
             <img src={imgteam} alt=""/>
             <div class="checklist-servicio">
@@ -14,7 +14,7 @@ return (
                   <span class="number">1</span>Concienciar
                 </h3>
                 <p>
-                  Queremos concienciar a las nuevas generaciones con buenos hábitos
+                  Queremos concienciar a las nuevas generaciones con buenos hábitos.
                 </p>
               </div>
               <div class="service">
@@ -22,7 +22,7 @@ return (
                   <span class="number">2</span>Diversión
                 </h3>
                 <p>
-                  No hay mejor manera de aprender que con juegos
+                  No hay mejor manera de aprender que con juegos.
                 </p>
               </div>
               <div class="service">
@@ -30,7 +30,7 @@ return (
                   <span class="number">3</span>Nuestro granito de arena
                 </h3>
                 <p>
-                  Cada acción cuenta y juntos podemos revertir la situación
+                  Cada acción cuenta y juntos podemos revertir la situación.
                 </p>
               </div>
             </div>

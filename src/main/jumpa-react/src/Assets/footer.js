@@ -7,7 +7,7 @@ function Footer() {
           <div class="contact us">
             <h2 class="brand">JUMPA</h2>
             <p>
-              Desarrollado por Daniel Hernandez, Ricardo Castro, Jennifer
+              Desarrollado por Daniel Hernández, Ricardo Castro, Jennifer
               Rodriguez y Pau Espinás
             </p>
           </div>

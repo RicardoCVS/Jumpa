@@ -50,7 +50,7 @@ return (
                     titleFront="¿Como surgió JUMPA?"
                     imagenBack={rutaImagen}
                     titleBack="El origen"
-                    textBack="Jumpa nace apartir de un gusto en comun, los videojuegos.<br>
+                    textBack="Jumpa nace a partir de un gusto en común, los videojuegos.<br>
                     Mediante los videojuegos nos propusimos crear un videojuego que sea divertido
                     y a la vez educativo.<br> Con esta herramienta podemos hacer que los niños aprendan
                     buenas costumbres hacía el medio ambiente."
@@ -62,10 +62,10 @@ return (
                     titleFront="¿Cuál es nuestro objetivo?"
                     imagenBack={rutaImagen}
                     titleBack="Concienciar"
-                    textBack="Con este proyecto, queremos hacer más divertida y amena la coincienciación
+                    textBack="Con este proyecto, queremos hacer más divertida y amena la concienciación
                     por el medio ambiente.<br><br> 
-                    ¿Como logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
-                    que tienes que hace para ganar más puntos.
+                    ¿Cómo logramos esto? Mediante minijuegos en los cuales tendrás que pensar rápidamente
+                    que tienes que hacer para ganar más puntos.
                     "
                     imagenfront={rutaImagen2}
                 />
